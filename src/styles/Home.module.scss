@@ -1,8 +1,104 @@
-.main{
-  background-color: black;
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 
-  img{
-    z-index: 1;
+  &.zoomed {
+    .backgroundImage {
+      transform: scale(0.95);
+    }
+
+    .content {
+      transform: scale(0.9);
+    }
   }
 
+  &.zoomedIn {
+    .backgroundImage {
+      transform: scale(4) translateY(15vh);
+      filter: brightness(3);
+      transition: transform 1.2s ease-in-out, filter 1.2s ease-in-out;
+      animation: whiteToBlack 2s forwards;
+      animation-delay: 1.2s; 
+    }
+
+    .content {
+      transform: scale(20);
+      transition: transform 3.0s ease-in-out;
+    }
+  }
+}
+
+@keyframes whiteToBlack {
+  0% {
+    filter: brightness(3);
+  }
+  100% {
+    filter: brightness(0);
+  }
+}
+
+.backgroundImage {
+  position: absolute;
+  top: -5vh;
+  left: -5vw;
+  width: 110%;
+  height: 110%;
+  background-image: url('../../public/background.webp');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+
+  div {
+    background-color: black;
+    width: 30%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 1%;
+    transition: transform 3.0s ease-in-out;
+
+    h1 {
+      color: red;
+      font-size: 10vmin;
+      font-family: 'Great Vibes', sans-serif;
+      margin-right: 3%;
+      margin-top: 3%;
+      align-self: center;
+    }
+  }
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: black;
+  font-family: 'Roboto';
+  font-size: 8vmin;
+  height: 10%;
+  width: 20%;
+  border-radius: 50px;
+  border: none;
+  margin-top: 30%;
+  transition: box-shadow 0.3s, transform 3.0s ease-in-out;
+
+  &:active {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 1);
+    transform: scale(0.95);
+  }
 }
