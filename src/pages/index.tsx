@@ -6,6 +6,7 @@ import styles from "@/styles/Home.module.scss";
 export default function Home() {
   const [isZoomed, setIsZoomed] = useState(false);
   const [isZoomedIn, setIsZoomedIn] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(true);
   const router = useRouter();
 
   const handleMouseDown = () => {
@@ -15,6 +16,10 @@ export default function Home() {
   const handleMouseUp = () => {
     setIsZoomed(false);
     setIsZoomedIn(true);
+  };
+
+  const handleOverlayTransitionEnd = () => {
+    setShowOverlay(false);
   };
 
   useEffect(() => {
@@ -29,7 +34,7 @@ export default function Home() {
 
   return (
     <div className={`${styles.main} ${isZoomed ? styles.zoomed : ''} ${isZoomedIn ? styles.zoomedIn : ''}`}>
-      <Overlay/>
+      {showOverlay && <Overlay direction="up" onTransitionEnd={handleOverlayTransitionEnd} />}
       <div className={styles.backgroundImage}></div>
       <div className={styles.content}>
         <div>
