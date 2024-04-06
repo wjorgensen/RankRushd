@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import Overlay from '@/components/Overlay';
 import styles from "@/styles/Home.module.scss";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
 
   return (
     <div className={`${styles.main} ${isZoomed ? styles.zoomed : ''} ${isZoomedIn ? styles.zoomedIn : ''}`}>
+      <Overlay/>
       <div className={styles.backgroundImage}></div>
       <div className={styles.content}>
         <div>
@@ -42,6 +44,7 @@ export default function Home() {
         >
           PLAY
         </button>
+        <p className={styles.link}>Directed by <a href="https://twitter.com/wezabis" target=" ">Wezabis</a></p>
       </div>
     </div>
   );
