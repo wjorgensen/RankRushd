@@ -1,0 +1,74 @@
+.main{
+   display: flex;
+   width: 100vw;
+   height: 70vh; 
+   font-family: 'Great Vibes', sans-serif;
+}
+
+.left{
+    width: 50%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 6vw;
+        margin-top: 5vh;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+        width: 75%;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+}
+
+.right{
+    width: 50%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 6vw;
+        margin-top: 5vh;
+    }
+
+    div{
+        p{
+            font-size: 3vw;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+
+.hints{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    align-items: center;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100vw;
+
+    button{
+        background-color: red;
+        color: black;
+        font-family: 'Roboto';
+        font-size: 8vmin;
+        border-radius: 50px;
+        border: none;
+        width: 30%;
+    }
+}
