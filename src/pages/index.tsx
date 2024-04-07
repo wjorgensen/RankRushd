@@ -51,6 +51,9 @@ export default function Home() {
         </button>
         <p className={styles.link}>Directed by <a href="https://twitter.com/wezabis" target=" ">Wezabis</a></p>
       </div>
+      <div className={styles.mobileSection}>
+        <img src="mobile.png"></img>
+      </div>
     </div>
   );
 }

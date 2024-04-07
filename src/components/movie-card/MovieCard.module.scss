@@ -1,0 +1,46 @@
+.movieCard {
+    //background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 30%;
+    height: 80%;
+  }
+  
+  .movieImage {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1vh;
+    max-height: 40%;
+  }
+  
+  .movieName {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .director,
+  .cast,
+  .totalWatched {
+    margin-top: 10px;
+  }
+  
+  .revealBox {
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    
+  }

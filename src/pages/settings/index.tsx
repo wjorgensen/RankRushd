@@ -8,6 +8,7 @@ export default function Home() {
     const [selectedHints, setSelectedHints] = useState("ON");
     const [selectedNumHints, setSelectedNumHints] = useState("1");
     const [selectedDifficulty, setSelectedDifficulty] = useState("Casual");
+    const [selectedLives, setSelectedLives] = useState("1");
     const [showOverlay, setShowOverlay] = useState(false);
     const [showContent, setShowContent] = useState(false);
     const [overlayTrigger, setOverlayTrigger] = useState('');
@@ -25,6 +26,10 @@ export default function Home() {
         setSelectedDifficulty(value);
     };
 
+    const handleLivesClick = (value: string) => {
+        setSelectedLives(value);
+    }
+
     const handleLogoClick = () => {
         setOverlayTrigger('logo');
         setShowOverlay(true);
@@ -40,7 +45,7 @@ export default function Home() {
             if (overlayTrigger === 'logo') {
                 router.push('/');
             } else if (overlayTrigger === 'play') {
-                router.push('/game?hints=' + selectedHints + '&numHints=' + selectedNumHints+'&difficulty='+selectedDifficulty);
+                router.push('/game?hints=' + selectedHints + '&numHints=' + selectedNumHints+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
             }
           }, 500);
       
@@ -145,6 +150,27 @@ export default function Home() {
                             onClick={() => handleDifficultyClick("Cinephile")}
                             >
                             Cinephile
+                            </button>
+                        </div>
+                        <p>Lives</p>
+                        <div>
+                            <button 
+                            className={selectedLives === "1" ? styles.active : ""}
+                            onClick={() => handleLivesClick("1")}
+                            >
+                                1
+                            </button>
+                            <button
+                            className={selectedLives === "3" ? styles.active : ""}
+                            onClick={() => handleLivesClick("3")}
+                            >
+                                3
+                            </button>
+                            <button
+                            className={selectedLives === "5" ? styles.active : ""}
+                            onClick={() => handleLivesClick("5")}
+                            >
+                                5
                             </button>
                         </div>
                     </div>

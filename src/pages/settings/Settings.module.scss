@@ -11,8 +11,8 @@
 
     button{
         position: absolute;
-        top: 1vh;
-        left: 1vw;
+        top: 2vh;
+        left: 0.5vw;
         border: none;
         color: red;
         font-family: 'Great Vibes', sans-serif;
@@ -50,8 +50,8 @@
     align-items: center;
 
     h1{
-        font-size: 6vw;
-        margin-top: 5vh;
+        font-size: 5vw;
+        margin-top: 7vh;
     }
 
     p{
@@ -72,22 +72,21 @@
     align-items: center;
 
     h1{
-        font-size: 6vw;
-        margin-top: 5vh;
+        font-size: 5vw;
+        margin-top: 7vh;
     }
 
     div{
         p{
-            font-size: 3vw;
+            font-size: 2vw;
             font-family: 'Roboto', sans-serif;
         }
     }
 
     p{
-        font-size: 3vw;
+        font-size: 2vw;
         font-family: 'Roboto', sans-serif;
         margin-top: 2vh;
-        margin-bottom: 1vh;
     }
 
     button {
@@ -98,7 +97,7 @@
         height: 5vh;
         border-radius: 50px;
         font-family: 'Roboto';
-        font-size: 2vw;
+        font-size: 1.5vw;
         background-color: black;
       
         &.active {
@@ -140,7 +139,7 @@
 .difficultyOptions{
     button{
         width: 9vw;
-        margin: 1vh 1vw;
+        margin: 1vh 0;
     }
 }
 

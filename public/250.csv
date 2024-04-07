@@ -1,0 +1,252 @@
+Film_title,Director,Cast,Average_rating,Watches,Film_URL
+Film_title,Director,['Cast'],Average_rating,Watches,Film_URL
+La La Land,Damien Chazelle,"['Ryan Gosling', 'Emma Stone', 'John Legend']",4.08,3066347,https://letterboxd.com/film/la-la-land/
+Interstellar,Christopher Nolan,"['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain']",4.34,3372726,https://letterboxd.com/film/interstellar/
+Everything Everywhere All at Once,"Daniel Scheinert, Daniel Kwan","['Michelle Yeoh', 'Stephanie Hsu', 'Ke Huy Quan']",4.31,2783713,https://letterboxd.com/film/everything-everywhere-all-at-once/
+Fight Club,David Fincher,"['Edward Norton', 'Brad Pitt', 'Helena Bonham Carter']",4.27,3607338,https://letterboxd.com/film/fight-club/
+Whiplash,Damien Chazelle,"['Miles Teller', 'J.K. Simmons', 'Paul Reiser']",4.43,2802270,https://letterboxd.com/film/whiplash-2014/
+Eternal Sunshine of the Spotless Mind,Michel Gondry,"['Jim Carrey', 'Kate Winslet', 'Kirsten Dunst']",4.25,2282840,https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/
+Little Women,Greta Gerwig,"['Saoirse Ronan', 'Florence Pugh', 'Emma Watson']",4.14,1953601,https://letterboxd.com/film/little-women-2019/
+Parasite,Bong Joon-ho,"['Song Kang-ho', 'Lee Sun-kyun', 'Cho Yeo-jeong']",4.56,3699700,https://letterboxd.com/film/parasite-2019/
+Dead Poets Society,Peter Weir,"['Robin Williams', 'Ethan Hawke', 'Robert Sean Leonard']",4.25,1756410,https://letterboxd.com/film/dead-poets-society/
+The Dark Knight,Christopher Nolan,"['Christian Bale', 'Heath Ledger', 'Michael Caine']",4.47,3392288,https://letterboxd.com/film/the-dark-knight/
+Spider-Man: Into the Spider-Verse,"Rodney Rothman, Peter Ramsey","['Shameik Moore', 'Jake Johnson', 'Hailee Steinfeld']",4.42,3306523,https://letterboxd.com/film/spider-man-into-the-spider-verse/
+Spirited Away,Hayao Miyazaki,"['Rumi Hiiragi', 'Miyu Irino', 'Mari Natsuki']",4.46,2650616,https://letterboxd.com/film/spirited-away/
+Pulp Fiction,Quentin Tarantino,"['John Travolta', 'Samuel L. Jackson', 'Uma Thurman']",4.27,3260481,https://letterboxd.com/film/pulp-fiction/
+Pride & Prejudice,Joe Wright,"['Keira Knightley', 'Matthew Macfadyen', 'Brenda Blethyn']",4.1,1216182,https://letterboxd.com/film/pride-prejudice/
+Howl's Moving Castle,Hayao Miyazaki,"['Chieko Baisho', 'Takuya Kimura', 'Akihiro Miwa']",4.32,1657069,https://letterboxd.com/film/howls-moving-castle/
+Fantastic Mr. Fox,Wes Anderson,"['George Clooney', 'Meryl Streep', 'Jason Schwartzman']",4.27,1848554,https://letterboxd.com/film/fantastic-mr-fox/
+The Perks of Being a Wallflower,Stephen Chbosky,"['Logan Lerman', 'Emma Watson', 'Ezra Miller']",3.91,2058619,https://letterboxd.com/film/the-perks-of-being-a-wallflower/
+10 Things I Hate About You,Gil Junger,"['Heath Ledger', 'Julia Stiles', 'Joseph Gordon-Levitt']",3.98,2091288,https://letterboxd.com/film/10-things-i-hate-about-you/
+The Shawshank Redemption,Frank Darabont,"['Tim Robbins', 'Morgan Freeman', 'Bob Gunton']",4.55,2008076,https://letterboxd.com/film/the-shawshank-redemption/
+The Godfather,Francis Ford Coppola,"['Marlon Brando', 'Al Pacino', 'James Caan']",4.55,1972715,https://letterboxd.com/film/the-godfather/
+Coraline,Henry Selick,"['Dakota Fanning', 'Teri Hatcher', 'Jennifer Saunders']",4.14,1774098,https://letterboxd.com/film/coraline/
+Call Me by Your Name,Luca Guadagnino,"['Timothée Chalamet', 'Armie Hammer', 'Michael Stuhlbarg']",3.86,2058726,https://letterboxd.com/film/call-me-by-your-name/
+Scream,Wes Craven,"['David Arquette', 'Neve Campbell', 'Courteney Cox']",4.02,1480431,https://letterboxd.com/film/scream/
+Inception,Christopher Nolan,"['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Ken Watanabe']",4.19,3315582,https://letterboxd.com/film/inception/
+The Grand Budapest Hotel,Wes Anderson,"['Ralph Fiennes', 'F. Murray Abraham', 'Tony Revolori']",4.24,2485981,https://letterboxd.com/film/the-grand-budapest-hotel/
+Black Swan,Darren Aronofsky,"['Natalie Portman', 'Mila Kunis', 'Vincent Cassel']",4.14,2208571,https://letterboxd.com/film/black-swan/
+Scott Pilgrim vs. the World,Edgar Wright,"['Michael Cera', 'Mary Elizabeth Winstead', 'Ellen Wong']",3.87,2176293,https://letterboxd.com/film/scott-pilgrim-vs-the-world/
+Lady Bird,Greta Gerwig,"['Saoirse Ronan', 'Laurie Metcalf', 'Tracy Letts']",3.86,2472222,https://letterboxd.com/film/lady-bird/
+GoodFellas,Martin Scorsese,"['Ray Liotta', 'Robert De Niro', 'Joe Pesci']",4.48,1551728,https://letterboxd.com/film/goodfellas/
+Before Sunrise,Richard Linklater,"['Ethan Hawke', 'Julie Delpy', 'Andrea Eckert']",4.33,952484,https://letterboxd.com/film/before-sunrise/
+Back to the Future,Robert Zemeckis,"['Michael J. Fox', 'Christopher Lloyd', 'Crispin Glover']",4.2,2348027,https://letterboxd.com/film/back-to-the-future/
+Aftersun,Charlotte Wells,"['Paul Mescal', 'Frankie Corio', 'Brooklyn Toulson']",4.24,889210,https://letterboxd.com/film/aftersun/
+Good Will Hunting,Gus Van Sant,"['Matt Damon', 'Robin Williams', 'Ben Affleck']",4.3,1800844,https://letterboxd.com/film/good-will-hunting/
+Inglourious Basterds,Quentin Tarantino,"['Brad Pitt', 'Mélanie Laurent', 'Christoph Waltz']",4.34,2593090,https://letterboxd.com/film/inglourious-basterds/
+The Lord of the Rings: The Return of the King,Peter Jackson,"['Elijah Wood', 'Sean Astin', 'Viggo Mortensen']",4.5,1887139,https://letterboxd.com/film/the-lord-of-the-rings-the-return-of-the-king/
+Spider-Man: Across the Spider-Verse,"Joaquim Dos Santos, Justin K. Thompson","['Shameik Moore', 'Hailee Steinfeld', 'Jason Schwartzman']",4.46,2072789,https://letterboxd.com/film/spider-man-across-the-spider-verse/
+Portrait of a Lady on Fire,Céline Sciamma,"['Noémie Merlant', 'Adèle Haenel', 'Luàna Bajrami']",4.43,813902,https://letterboxd.com/film/portrait-of-a-lady-on-fire/
+Donnie Darko,Richard Kelly,"['Jake Gyllenhaal', 'Jena Malone', 'James Duval']",3.97,1653988,https://letterboxd.com/film/donnie-darko/
+The Empire Strikes Back,Irvin Kershner,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher']",4.41,2037063,https://letterboxd.com/film/the-empire-strikes-back/
+The Truman Show,Peter Weir,"['Jim Carrey', 'Laura Linney', 'Noah Emmerich']",4.21,3055175,https://letterboxd.com/film/the-truman-show/
+Little Miss Sunshine,"Jonathan Dayton, Valerie Faris","['Greg Kinnear', 'Toni Collette', 'Steve Carell']",4.17,1558261,https://letterboxd.com/film/little-miss-sunshine/
+The Shining,Stanley Kubrick,"['Jack Nicholson', 'Shelley Duvall', 'Danny Lloyd']",4.24,2552100,https://letterboxd.com/film/the-shining/
+2001: A Space Odyssey,Stanley Kubrick,"['Keir Dullea', 'Gary Lockwood', 'William Sylvester']",4.3,1274562,https://letterboxd.com/film/2001-a-space-odyssey/
+Blade Runner 2049,Denis Villeneuve,"['Ryan Gosling', 'Harrison Ford', 'Sylvia Hoeks']",4.12,1727114,https://letterboxd.com/film/blade-runner-2049/
+Taxi Driver,Martin Scorsese,"['Robert De Niro', 'Jodie Foster', 'Cybill Shepherd']",4.17,1807514,https://letterboxd.com/film/taxi-driver/
+Se7en,David Fincher,"['Morgan Freeman', 'Brad Pitt', 'Gwyneth Paltrow']",4.32,2319086,https://letterboxd.com/film/se7en/
+Amélie,Jean-Pierre Jeunet,"['Audrey Tautou', 'Mathieu Kassovitz', 'Rufus']",4.16,1152386,https://letterboxd.com/film/amelie/
+Forrest Gump,Robert Zemeckis,"['Tom Hanks', 'Robin Wright', 'Gary Sinise']",4.12,3049371,https://letterboxd.com/film/forrest-gump/
+The Batman,Matt Reeves,"['Robert Pattinson', 'Zoë Kravitz', 'Paul Dano']",3.98,2777959,https://letterboxd.com/film/the-batman/
+The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,"['Elijah Wood', 'Ian McKellen', 'Viggo Mortensen']",4.36,2348623,https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/
+Mamma Mia!,Phyllida Lloyd,"['Meryl Streep', 'Pierce Brosnan', 'Colin Firth']",3.74,1373714,https://letterboxd.com/film/mamma-mia/
+Blade Runner,Ridley Scott,"['Harrison Ford', 'Rutger Hauer', 'Sean Young']",4.1,1350083,https://letterboxd.com/film/blade-runner/
+Arrival,Denis Villeneuve,"['Amy Adams', 'Jeremy Renner', 'Forest Whitaker']",4.12,2022713,https://letterboxd.com/film/arrival-2016/
+Kill Bill: Vol. 1,Quentin Tarantino,"['Uma Thurman', 'Lucy Liu', 'Vivica A. Fox']",4.19,2248050,https://letterboxd.com/film/kill-bill-vol-1/
+La Haine,Mathieu Kassovitz,"['Vincent Cassel', 'Hubert Koundé', 'Saïd Taghmaoui']",4.51,567035,https://letterboxd.com/film/la-haine/
+Star Wars: Episode III – Revenge of the Sith,George Lucas,"['Hayden Christensen', 'Ewan McGregor', 'Natalie Portman']",3.79,1687939,https://letterboxd.com/film/star-wars-episode-iii-revenge-of-the-sith/
+Midsommar,Ari Aster,"['Florence Pugh', 'Jack Reynor', 'William Jackson Harper']",3.78,2752798,https://letterboxd.com/film/midsommar/
+Dune: Part Two,Denis Villeneuve,"['Timothée Chalamet', 'Zendaya', 'Rebecca Ferguson']",4.51,1347669,https://letterboxd.com/film/dune-part-two/
+Gone Girl,David Fincher,"['Ben Affleck', 'Rosamund Pike', 'Neil Patrick Harris']",4.07,2549866,https://letterboxd.com/film/gone-girl/
+The Thing,John Carpenter,"['Kurt Russell', 'Keith David', 'Wilford Brimley']",4.35,904703,https://letterboxd.com/film/the-thing/
+Princess Mononoke,Hayao Miyazaki,"['Youji Matsuda', 'Yuriko Ishida', 'Yûko Tanaka']",4.37,1173168,https://letterboxd.com/film/princess-mononoke/
+In the Mood for Love,Wong Kar-wai,"['Tony Leung Chiu-wai', 'Maggie Cheung', 'Rebecca Pan']",4.4,640638,https://letterboxd.com/film/in-the-mood-for-love/
+About Time,Richard Curtis,"['Domhnall Gleeson', 'Rachel McAdams', 'Bill Nighy']",4.0,982902,https://letterboxd.com/film/about-time/
+The Silence of the Lambs,Jonathan Demme,"['Jodie Foster', 'Anthony Hopkins', 'Scott Glenn']",4.33,2259223,https://letterboxd.com/film/the-silence-of-the-lambs/
+Jurassic Park,Steven Spielberg,"['Sam Neill', 'Laura Dern', 'Jeff Goldblum']",4.11,2118079,https://letterboxd.com/film/jurassic-park/
+Django Unchained,Quentin Tarantino,"['Jamie Foxx', 'Christoph Waltz', 'Leonardo DiCaprio']",4.27,2503962,https://letterboxd.com/film/django-unchained/
+Her,Spike Jonze,"['Joaquin Phoenix', 'Scarlett Johansson', 'Amy Adams']",4.02,1974246,https://letterboxd.com/film/her/
+Mulholland Drive,David Lynch,"['Naomi Watts', 'Laura Harring', 'Justin Theroux']",4.24,822458,https://letterboxd.com/film/mulholland-drive/
+American Psycho,Mary Harron,"['Christian Bale', 'Willem Dafoe', 'Jared Leto']",3.86,2602828,https://letterboxd.com/film/american-psycho/
+Shutter Island,Martin Scorsese,"['Leonardo DiCaprio', 'Mark Ruffalo', 'Ben Kingsley']",4.11,2389339,https://letterboxd.com/film/shutter-island/
+Hereditary,Ari Aster,"['Toni Collette', 'Alex Wolff', 'Gabriel Byrne']",3.97,1994263,https://letterboxd.com/film/hereditary/
+Trainspotting,Danny Boyle,"['Ewan McGregor', 'Ewen Bremner', 'Jonny Lee Miller']",4.2,1028430,https://letterboxd.com/film/trainspotting/
+The Matrix,"Lilly Wachowski, Lana Wachowski","['Keanu Reeves', 'Laurence Fishburne', 'Carrie-Anne Moss']",4.16,2475614,https://letterboxd.com/film/the-matrix/
+Oldboy,Park Chan-wook,"['Choi Min-sik', 'Yoo Ji-tae', 'Kang Hye-jung']",4.39,1005831,https://letterboxd.com/film/oldboy/
+Perfect Blue,Satoshi Kon,"['Junko Iwao', 'Rica Matsumoto', 'Shiho Niiyama']",4.4,717184,https://letterboxd.com/film/perfect-blue/
+The Social Network,David Fincher,"['Jesse Eisenberg', 'Andrew Garfield', 'Armie Hammer']",3.95,2443604,https://letterboxd.com/film/the-social-network/
+12 Angry Men,Sidney Lumet,"['Martin Balsam', 'John Fiedler', 'Lee J. Cobb']",4.62,910819,https://letterboxd.com/film/12-angry-men/
+The Handmaiden,Park Chan-wook,"['Kim Min-hee', 'Kim Tae-ri', 'Ha Jung-woo']",4.41,598615,https://letterboxd.com/film/the-handmaiden/
+Oppenheimer,Christopher Nolan,"['Cillian Murphy', 'Emily Blunt', 'Matt Damon']",4.24,2430969,https://letterboxd.com/film/oppenheimer-2023/
+Knives Out,Rian Johnson,"['Daniel Craig', 'Chris Evans', 'Ana de Armas']",3.99,3172434,https://letterboxd.com/film/knives-out-2019/
+Alien,Ridley Scott,"['Sigourney Weaver', 'Tom Skerritt', 'Ian Holm']",4.28,1433157,https://letterboxd.com/film/alien/
+There Will Be Blood,Paul Thomas Anderson,"['Daniel Day-Lewis', 'Paul Dano', '""Kevin J. OConnor""']",4.45,978751,https://letterboxd.com/film/there-will-be-blood/
+A Clockwork Orange,Stanley Kubrick,"['Malcolm McDowell', 'Patrick Magee', 'Michael Bates']",4.13,1337735,https://letterboxd.com/film/a-clockwork-orange/
+City of God,Fernando Meirelles,"['Alexandre Rodrigues', 'Leandro Firmino', 'Phellipe Haagensen']",4.52,732104,https://letterboxd.com/film/city-of-god/
+Ratatouille,Brad Bird,"['Patton Oswalt', 'Lou Romano', 'Ian Holm']",4.2,3038905,https://letterboxd.com/film/ratatouille/
+Chungking Express,Wong Kar-wai,"['Takeshi Kaneshiro', 'Brigitte Lin', 'Tony Leung Chiu-wai']",4.3,529141,https://letterboxd.com/film/chungking-express/
+Titanic,James Cameron,"['Leonardo DiCaprio', 'Kate Winslet', 'Billy Zane']",3.8,2644002,https://letterboxd.com/film/titanic-1997/
+Moonlight,Barry Jenkins,"['Trevante Rhodes', 'André Holland', 'Janelle Monáe']",4.2,1345429,https://letterboxd.com/film/moonlight-2016/
+No Country for Old Men,"Joel Coen, Ethan Coen","['Josh Brolin', 'Javier Bardem', 'Tommy Lee Jones']",4.33,1551525,https://letterboxd.com/film/no-country-for-old-men/
+"Girl, Interrupted",James Mangold,"['Winona Ryder', 'Angelina Jolie', 'Brittany Murphy']",3.89,862454,https://letterboxd.com/film/girl-interrupted/
+Lost in Translation,Sofia Coppola,"['Bill Murray', 'Scarlett Johansson', 'Giovanni Ribisi']",3.84,1166104,https://letterboxd.com/film/lost-in-translation/
+The Virgin Suicides,Sofia Coppola,"['James Woods', 'Kathleen Turner', 'Kirsten Dunst']",3.82,732747,https://letterboxd.com/film/the-virgin-suicides/
+Mad Max: Fury Road,George Miller,"['Tom Hardy', 'Charlize Theron', 'Nicholas Hoult']",4.17,1873510,https://letterboxd.com/film/mad-max-fury-road/
+Barbie,Greta Gerwig,"['Margot Robbie', 'Ryan Gosling', 'America Ferrera']",3.88,3426847,https://letterboxd.com/film/barbie/
+The Big Lebowski,Joel Coen,"['Jeff Bridges', 'John Goodman', 'Julianne Moore']",4.13,1209533,https://letterboxd.com/film/the-big-lebowski/
+Prisoners,Denis Villeneuve,"['Hugh Jackman', 'Jake Gyllenhaal', 'Terrence Howard']",4.29,1419209,https://letterboxd.com/film/prisoners/
+Drive,Nicolas Winding Refn,"['Ryan Gosling', 'Carey Mulligan', 'Bryan Cranston']",3.94,1651390,https://letterboxd.com/film/drive-2011/
+Baby Driver,Edgar Wright,"['Ansel Elgort', 'Kevin Spacey', 'Lily James']",3.72,2509370,https://letterboxd.com/film/baby-driver/
+The Wolf of Wall Street,Martin Scorsese,"['Leonardo DiCaprio', 'Jonah Hill', 'Margot Robbie']",4.0,3086706,https://letterboxd.com/film/the-wolf-of-wall-street/
+Apocalypse Now,Francis Ford Coppola,"['Martin Sheen', 'Frederic Forrest', 'Albert Hall']",4.44,830744,https://letterboxd.com/film/apocalypse-now/
+The Godfather: Part II,Francis Ford Coppola,"['Al Pacino', 'Robert Duvall', 'Diane Keaton']",4.59,1082347,https://letterboxd.com/film/the-godfather-part-ii/
+Your Name.,Makoto Shinkai,"['Ryunosuke Kamiki', 'Mone Kamishiraishi', 'Ryo Narita']",4.21,1051740,https://letterboxd.com/film/your-name/
+Tangled,"Byron Howard, Nathan Greno","['Mandy Moore', 'Zachary Levi', 'Donna Murphy']",3.92,1861549,https://letterboxd.com/film/tangled-2010/
+Fallen Angels,Wong Kar-wai,"['Leon Lai', 'Charlie Yeung', 'Takeshi Kaneshiro']",4.2,444601,https://letterboxd.com/film/fallen-angels/
+Harry Potter and the Prisoner of Azkaban,Alfonso Cuarón,"['Daniel Radcliffe', 'Rupert Grint', 'Emma Watson']",4.09,2510839,https://letterboxd.com/film/harry-potter-and-the-prisoner-of-azkaban/
+Star Wars,George Lucas,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher']",4.18,2321408,https://letterboxd.com/film/star-wars/
+When Harry Met Sally...,Rob Reiner,"['Meg Ryan', 'Billy Crystal', 'Bruno Kirby']",4.04,782137,https://letterboxd.com/film/when-harry-met-sally/
+Ferris Bueller's Day Off,John Hughes,"['Matthew Broderick', 'Alan Ruck', 'Mia Sara']",3.93,1426318,https://letterboxd.com/film/ferris-buellers-day-off/
+Neon Genesis Evangelion: The End of Evangelion,"Hideaki Anno, Kazuya Tsurumaki","['Megumi Ogata', 'Megumi Hayashibara', 'Kotono Mitsuishi']",4.46,397355,https://letterboxd.com/film/neon-genesis-evangelion-the-end-of-evangelion/
+"Paris, Texas",Wim Wenders,"['Harry Dean Stanton', 'Nastassja Kinski', 'Dean Stockwell']",4.4,388052,https://letterboxd.com/film/paris-texas/
+Get Out,Jordan Peele,"['Daniel Kaluuya', 'Allison Williams', 'Bradley Whitford']",4.16,3211041,https://letterboxd.com/film/get-out-2017/
+(500) Days of Summer,Marc Webb,"['Joseph Gordon-Levitt', 'Zooey Deschanel', 'Geoffrey Arend']",3.66,1726682,https://letterboxd.com/film/500-days-of-summer/
+The Hunger Games: Catching Fire,Francis Lawrence,"['Jennifer Lawrence', 'Josh Hutcherson', 'Liam Hemsworth']",3.79,1858497,https://letterboxd.com/film/the-hunger-games-catching-fire/
+The Prestige,Christopher Nolan,"['Hugh Jackman', 'Christian Bale', 'Michael Caine']",4.23,1353052,https://letterboxd.com/film/the-prestige/
+The Lighthouse,Robert Eggers,"['Robert Pattinson', 'Willem Dafoe', 'Valeriia Karaman']",4.04,1252774,https://letterboxd.com/film/the-lighthouse-2019/
+Past Lives,Celine Song,"['Greta Lee', 'Teo Yoo', 'John Magaro']",4.19,982504,https://letterboxd.com/film/past-lives/
+Requiem for a Dream,Darren Aronofsky,"['Ellen Burstyn', 'Jared Leto', 'Jennifer Connelly']",4.1,1184635,https://letterboxd.com/film/requiem-for-a-dream/
+Joker,Todd Phillips,"['Joaquin Phoenix', 'Robert De Niro', 'Zazie Beetz']",3.84,3679961,https://letterboxd.com/film/joker-2019/
+Dune,Denis Villeneuve,"['Timothée Chalamet', 'Rebecca Ferguson', 'Oscar Isaac']",3.9,2662449,https://letterboxd.com/film/dune-2021/
+The Royal Tenenbaums,Wes Anderson,"['Gene Hackman', 'Anjelica Huston', 'Ben Stiller']",4.1,874558,https://letterboxd.com/film/the-royal-tenenbaums/
+Poor Things,Yorgos Lanthimos,"['Emma Stone', 'Mark Ruffalo', 'Willem Dafoe']",4.08,1525908,https://letterboxd.com/film/poor-things-2023/
+The Princess Bride,Rob Reiner,"['Cary Elwes', 'Robin Wright', 'Mandy Patinkin']",4.04,914248,https://letterboxd.com/film/the-princess-bride/
+Scarface,Brian De Palma,"['Al Pacino', 'Steven Bauer', 'Michelle Pfeiffer']",4.11,1110277,https://letterboxd.com/film/scarface-1983/
+Almost Famous,Cameron Crowe,"['Billy Crudup', 'Frances McDormand', 'Kate Hudson']",4.03,571538,https://letterboxd.com/film/almost-famous/
+The Devil Wears Prada,David Frankel,"['Anne Hathaway', 'Meryl Streep', 'Emily Blunt']",3.77,1730536,https://letterboxd.com/film/the-devil-wears-prada/
+The Notebook,Nick Cassavetes,"['Ryan Gosling', 'Rachel McAdams', 'Gena Rowlands']",3.67,1249611,https://letterboxd.com/film/the-notebook/
+Twilight,Catherine Hardwicke,"['Kristen Stewart', 'Robert Pattinson', 'Billy Burke']",2.9,1602917,https://letterboxd.com/film/twilight-2008/
+Frances Ha,Noah Baumbach,"['Greta Gerwig', 'Mickey Sumner', 'Michael Zegen']",4.03,561374,https://letterboxd.com/film/frances-ha/
+The Rocky Horror Picture Show,Jim Sharman,"['Tim Curry', 'Susan Sarandon', 'Barry Bostwick']",4.0,700210,https://letterboxd.com/film/the-rocky-horror-picture-show/
+The Worst Person in the World,Joachim Trier,"['Renate Reinsve', 'Anders Danielsen Lie', 'Herbert Nordrum']",4.13,610143,https://letterboxd.com/film/the-worst-person-in-the-world/
+Cinema Paradiso,Giuseppe Tornatore,"['Philippe Noiret', 'Jacques Perrin', 'Marco Leonardi']",4.45,357388,https://letterboxd.com/film/cinema-paradiso/
+Bottoms,Emma Seligman,"['Rachel Sennott', 'Ayo Edebiri', 'Ruby Cruz']",3.83,941363,https://letterboxd.com/film/bottoms/
+Jojo Rabbit,Taika Waititi,"['Roman Griffin Davis', 'Thomasin McKenzie', 'Scarlett Johansson']",4.03,1888930,https://letterboxd.com/film/jojo-rabbit/
+Superbad,Greg Mottola,"['Jonah Hill', 'Michael Cera', 'Christopher Mintz-Plasse']",3.88,1670327,https://letterboxd.com/film/superbad/
+Avengers: Endgame,"Anthony Russo, Joe Russo","['Robert Downey Jr.', 'Chris Evans', 'Mark Ruffalo']",3.87,2934174,https://letterboxd.com/film/avengers-endgame/
+Shrek 2,"Andrew Adamson, Kelly Asbury","['Mike Myers', 'Eddie Murphy', 'Cameron Diaz']",4.02,1878157,https://letterboxd.com/film/shrek-2/
+The Breakfast Club,John Hughes,"['Emilio Estevez', 'Judd Nelson', 'Molly Ringwald']",3.76,1916502,https://letterboxd.com/film/the-breakfast-club/
+The Lord of the Rings: The Two Towers,Peter Jackson,"['Elijah Wood', 'Sean Astin', 'Andy Serkis']",4.39,1841458,https://letterboxd.com/film/the-lord-of-the-rings-the-two-towers/
+Mean Girls,Mark Waters,"['Lindsay Lohan', 'Rachel McAdams', 'Lizzy Caplan']",3.83,2289151,https://letterboxd.com/film/mean-girls/
+Once Upon a Time… in Hollywood,Quentin Tarantino,"['Leonardo DiCaprio', 'Brad Pitt', 'Margot Robbie']",3.76,2434677,https://letterboxd.com/film/once-upon-a-time-in-hollywood/
+Spider-Man: No Way Home,Jon Watts,"['Tom Holland', 'Zendaya', 'Benedict Cumberbatch']",3.85,2756319,https://letterboxd.com/film/spider-man-no-way-home/
+Stand by Me,Rob Reiner,"['Wil Wheaton', 'River Phoenix', '""Jerry OConnell""']",4.14,804808,https://letterboxd.com/film/stand-by-me/
+"The Good, the Bad and the Ugly",Sergio Leone,"['Clint Eastwood', 'Eli Wallach', 'Lee Van Cleef']",4.49,591922,https://letterboxd.com/film/the-good-the-bad-and-the-ugly/
+Memento,Christopher Nolan,"['Guy Pearce', 'Carrie-Anne Moss', 'Joe Pantoliano']",4.17,1489375,https://letterboxd.com/film/memento/
+Pan's Labyrinth,Guillermo del Toro,"['Ivana Baquero', 'Sergi López', 'Maribel Verdú']",4.17,1018927,https://letterboxd.com/film/pans-labyrinth/
+Léon: The Professional,Luc Besson,"['Jean Reno', 'Natalie Portman', 'Gary Oldman']",4.03,1244713,https://letterboxd.com/film/leon-the-professional/
+Before Sunset,Richard Linklater,"['Ethan Hawke', 'Julie Delpy', 'Vernon Dobtcheff']",4.35,648982,https://letterboxd.com/film/before-sunset/
+Beautiful Boy,Felix van Groeningen,"['Steve Carell', 'Timothée Chalamet', 'Maura Tierney']",3.88,723536,https://letterboxd.com/film/beautiful-boy-2018/
+Juno,Jason Reitman,"['Elliot Page', 'Michael Cera', 'Jennifer Garner']",3.73,1384904,https://letterboxd.com/film/juno/
+The Departed,Martin Scorsese,"['Leonardo DiCaprio', 'Matt Damon', 'Jack Nicholson']",4.3,1248393,https://letterboxd.com/film/the-departed/
+Jaws,Steven Spielberg,"['Roy Scheider', 'Robert Shaw', 'Richard Dreyfuss']",3.97,1512300,https://letterboxd.com/film/jaws/
+WALL·E,Andrew Stanton,"['Ben Burtt', 'Elissa Knight', 'Jeff Garlin']",4.19,2552988,https://letterboxd.com/film/walle/
+Pearl,Ti West,"['Mia Goth', 'Tandi Wright', 'David Corenswet']",3.75,949714,https://letterboxd.com/film/pearl-2022/
+The Florida Project,Sean Baker,"['Brooklynn Prince', 'Bria Vinaite', 'Willem Dafoe']",4.11,757739,https://letterboxd.com/film/the-florida-project/
+Clueless,Amy Heckerling,"['Alicia Silverstone', 'Stacey Dash', 'Brittany Murphy']",3.72,1491259,https://letterboxd.com/film/clueless/
+Avengers: Infinity War,"Anthony Russo, Joe Russo","['Robert Downey Jr.', 'Chris Hemsworth', 'Mark Ruffalo']",3.95,3062126,https://letterboxd.com/film/avengers-infinity-war/
+How to Train Your Dragon,"Chris Sanders, Dean DeBlois","['Jay Baruchel', 'Gerard Butler', 'Craig Ferguson']",4.01,1494608,https://letterboxd.com/film/how-to-train-your-dragon/
+Halloween,John Carpenter,"['Donald Pleasence', 'Jamie Lee Curtis', 'P.J. Soles']",3.81,1001991,https://letterboxd.com/film/halloween-1978/
+Memories of Murder,Bong Joon-ho,"['Song Kang-ho', 'Kim Sang-kyung', 'Kim Roi-ha']",4.41,527483,https://letterboxd.com/film/memories-of-murder/
+Heat,Michael Mann,"['Robert De Niro', 'Al Pacino', 'Val Kilmer']",4.27,725800,https://letterboxd.com/film/heat-1995/
+Akira,Katsuhiro Otomo,"['Mitsuo Iwata', 'Nozomu Sasaki', 'Mami Koyama']",4.27,679102,https://letterboxd.com/film/akira/
+Brokeback Mountain,Ang Lee,"['Heath Ledger', 'Jake Gyllenhaal', 'Michelle Williams']",4.1,956705,https://letterboxd.com/film/brokeback-mountain/
+Hot Fuzz,Edgar Wright,"['Simon Pegg', 'Nick Frost', 'Jim Broadbent']",4.08,948364,https://letterboxd.com/film/hot-fuzz/
+The Secret Life of Walter Mitty,Ben Stiller,"['Ben Stiller', 'Kristen Wiig', 'Sean Penn']",3.73,634057,https://letterboxd.com/film/the-secret-life-of-walter-mitty-2013/
+My Neighbor Totoro,Hayao Miyazaki,"['Noriko Hidaka', 'Chika Sakamoto', 'Hitoshi Takagi']",4.19,1521620,https://letterboxd.com/film/my-neighbor-totoro/
+Stalker,Andrei Tarkovsky,"['Aleksandr Kaydanovskiy', 'Anatoliy Solonitsyn', 'Nikolay Grinko']",4.43,316520,https://letterboxd.com/film/stalker/
+Moonrise Kingdom,Wes Anderson,"['Jared Gilman', 'Kara Hayward', 'Bruce Willis']",4.02,1102638,https://letterboxd.com/film/moonrise-kingdom/
+Babylon,Damien Chazelle,"['Brad Pitt', 'Margot Robbie', 'Diego Calva']",3.82,707786,https://letterboxd.com/film/babylon-2022/
+Ponyo,Hayao Miyazaki,"['Yuria Kozuki', 'Hiroki Doi', 'George Tokoro']",4.05,905831,https://letterboxd.com/film/ponyo/
+Kiki's Delivery Service,Hayao Miyazaki,"['Minami Takayama', 'Rei Sakuma', 'Kappei Yamaguchi']",4.13,892316,https://letterboxd.com/film/kikis-delivery-service/
+Spider-Man 2,Sam Raimi,"['Tobey Maguire', 'Kirsten Dunst', 'James Franco']",3.88,2064637,https://letterboxd.com/film/spider-man-2/
+Dazed and Confused,Richard Linklater,"['Jason London', 'Joey Lauren Adams', 'Matthew McConaughey']",3.93,505097,https://letterboxd.com/film/dazed-and-confused/
+The Nightmare Before Christmas,Henry Selick,"['Danny Elfman', 'Chris Sarandon', '""Catherine OHara""']",3.95,1646049,https://letterboxd.com/film/the-nightmare-before-christmas/
+But I'm a Cheerleader,Jamie Babbit,"['Natasha Lyonne', 'Clea DuVall', 'Cathy Moriarty']",3.98,437777,https://letterboxd.com/film/but-im-a-cheerleader/
+Moulin Rouge!,Baz Luhrmann,"['Nicole Kidman', 'Ewan McGregor', 'John Leguizamo']",3.74,512760,https://letterboxd.com/film/moulin-rouge-2001/
+Gladiator,Ridley Scott,"['Russell Crowe', 'Joaquin Phoenix', 'Connie Nielsen']",4.1,1220270,https://letterboxd.com/film/gladiator-2000/
+Eyes Wide Shut,Stanley Kubrick,"['Tom Cruise', 'Nicole Kidman', 'Sydney Pollack']",4.0,840782,https://letterboxd.com/film/eyes-wide-shut/
+Persona,Ingmar Bergman,"['Bibi Andersson', 'Liv Ullmann', 'Margaretha Krook']",4.41,368042,https://letterboxd.com/film/persona/
+Raiders of the Lost Ark,Steven Spielberg,"['Harrison Ford', 'Karen Allen', 'Paul Freeman']",4.16,1350713,https://letterboxd.com/film/raiders-of-the-lost-ark/
+The Lion King,"Roger Allers, Rob Minkoff","['Matthew Broderick', 'Moira Kelly', 'Nathan Lane']",4.21,2247872,https://letterboxd.com/film/the-lion-king/
+Avatar,James Cameron,"['Sam Worthington', 'Zoe Saldaña', 'Sigourney Weaver']",3.57,2453778,https://letterboxd.com/film/avatar/
+Schindler's List,Steven Spielberg,"['Liam Neeson', 'Ben Kingsley', 'Ralph Fiennes']",4.52,1198968,https://letterboxd.com/film/schindlers-list/
+Reservoir Dogs,Quentin Tarantino,"['Harvey Keitel', 'Tim Roth', 'Michael Madsen']",4.15,1435488,https://letterboxd.com/film/reservoir-dogs/
+Children of Men,Alfonso Cuarón,"['Clive Owen', 'Clare-Hope Ashitey', 'Chiwetel Ejiofor']",4.3,696089,https://letterboxd.com/film/children-of-men/
+How to Lose a Guy in 10 Days,Donald Petrie,"['Kate Hudson', 'Matthew McConaughey', 'Kathryn Hahn']",3.56,786636,https://letterboxd.com/film/how-to-lose-a-guy-in-10-days/
+One Flew Over the Cuckoo's Nest,Miloš Forman,"['Jack Nicholson', 'Brad Dourif', 'Louise Fletcher']",4.36,886440,https://letterboxd.com/film/one-flew-over-the-cuckoos-nest/
+Carol,Todd Haynes,"['Rooney Mara', 'Cate Blanchett', 'Kyle Chandler']",4.01,556587,https://letterboxd.com/film/carol-2015/
+Pitch Perfect,Jason Moore,"['Anna Kendrick', 'Brittany Snow', 'Anna Camp']",3.46,1139277,https://letterboxd.com/film/pitch-perfect/
+It's a Wonderful Life,Frank Capra,"['James Stewart', 'Donna Reed', 'Lionel Barrymore']",4.39,609268,https://letterboxd.com/film/its-a-wonderful-life/
+Corpse Bride,"Tim Burton, Mike Johnson","['Johnny Depp', 'Helena Bonham Carter', 'Emily Watson']",3.8,1202170,https://letterboxd.com/film/corpse-bride/
+A Silent Voice,Naoko Yamada,"['Miyu Irino', 'Saori Hayami', 'Aoi Yuki']",4.16,468459,https://letterboxd.com/film/a-silent-voice/
+Casablanca,Michael Curtiz,"['Humphrey Bogart', 'Ingrid Bergman', 'Paul Henreid']",4.27,713312,https://letterboxd.com/film/casablanca/
+The Witch,Robert Eggers,"['Anya Taylor-Joy', 'Ralph Ineson', 'Kate Dickie']",3.84,1200028,https://letterboxd.com/film/the-witch-2015/
+Heathers,Michael Lehmann,"['Winona Ryder', 'Christian Slater', 'Shannen Doherty']",3.76,676220,https://letterboxd.com/film/heathers/
+Edward Scissorhands,Tim Burton,"['Johnny Depp', 'Winona Ryder', 'Dianne Wiest']",3.86,1484908,https://letterboxd.com/film/edward-scissorhands/
+Rear Window,Alfred Hitchcock,"['James Stewart', 'Grace Kelly', 'Wendell Corey']",4.38,722886,https://letterboxd.com/film/rear-window/
+Possession,Andrzej Żuławski,"['Isabelle Adjani', 'Sam Neill', 'Margit Carstensen']",4.1,283729,https://letterboxd.com/film/possession/
+Saltburn,Emerald Fennell,"['Barry Keoghan', 'Jacob Elordi', 'Rosamund Pike']",3.44,1908645,https://letterboxd.com/film/saltburn/
+American Beauty,Sam Mendes,"['Kevin Spacey', 'Annette Bening', 'Thora Birch']",3.96,1224138,https://letterboxd.com/film/american-beauty/
+Jennifer's Body,Karyn Kusama,"['Megan Fox', 'Amanda Seyfried', 'Johnny Simmons']",3.42,988122,https://letterboxd.com/film/jennifers-body/
+Singin' in the Rain,"Stanley Donen, Gene Kelly","['Gene Kelly', '""Donald OConnor""', 'Debbie Reynolds']",4.32,558352,https://letterboxd.com/film/singin-in-the-rain/
+Phantom Thread,Paul Thomas Anderson,"['Daniel Day-Lewis', 'Vicky Krieps', 'Lesley Manville']",4.14,531395,https://letterboxd.com/film/phantom-thread/
+Manchester by the Sea,Kenneth Lonergan,"['Casey Affleck', 'Lucas Hedges', 'Michelle Williams']",4.1,709481,https://letterboxd.com/film/manchester-by-the-sea/
+1917,Sam Mendes,"['George MacKay', 'Dean-Charles Chapman', 'Mark Strong']",4.1,1615945,https://letterboxd.com/film/1917/
+Cars,John Lasseter,"['Owen Wilson', 'Larry the Cable Guy', 'Bonnie Hunt']",3.67,1593611,https://letterboxd.com/film/cars/
+Vertigo,Alfred Hitchcock,"['James Stewart', 'Kim Novak', 'Barbara Bel Geddes']",4.24,718198,https://letterboxd.com/film/vertigo/
+Marie Antoinette,Sofia Coppola,"['Kirsten Dunst', 'Jason Schwartzman', 'Steve Coogan']",3.72,557649,https://letterboxd.com/film/marie-antoinette-2006/
+"Synecdoche, New York",Charlie Kaufman,"['Philip Seymour Hoffman', 'Samantha Morton', 'Jennifer Jason Leigh']",4.18,279578,https://letterboxd.com/film/synecdoche-new-york/
+The Holdovers,Alexander Payne,"['Paul Giamatti', 'Dominic Sessa', '""DaVine Joy Randolph""']",4.22,790608,https://letterboxd.com/film/the-holdovers/
+Come and See,Elem Klimov,"['Aleksei Kravchenko', 'Olga Mironova', 'Liubomiras Laucevicius']",4.64,304510,https://letterboxd.com/film/come-and-see/
+mid90s,Jonah Hill,"['Sunny Suljic', 'Katherine Waterston', 'Lucas Hedges']",3.76,623503,https://letterboxd.com/film/mid90s/
+Bones and All,Luca Guadagnino,"['Taylor Russell', 'Timothée Chalamet', 'Mark Rylance']",3.65,600805,https://letterboxd.com/film/bones-and-all/
+Terminator 2: Judgment Day,James Cameron,"['Arnold Schwarzenegger', 'Linda Hamilton', 'Edward Furlong']",4.28,909682,https://letterboxd.com/film/terminator-2-judgment-day/
+Psycho,Alfred Hitchcock,"['Anthony Perkins', 'Janet Leigh', 'Vera Miles']",4.32,1219388,https://letterboxd.com/film/psycho/
+Fargo,Joel Coen,"['Frances McDormand', 'William H. Macy', 'Steve Buscemi']",4.22,1113343,https://letterboxd.com/film/fargo/
+Labyrinth,Jim Henson,"['David Bowie', 'Jennifer Connelly', 'Toby Froud']",3.68,373243,https://letterboxd.com/film/labyrinth/
+The Texas Chain Saw Massacre,Tobe Hooper,"['Marilyn Burns', 'Allen Danziger', 'Paul A. Partain']",3.85,688751,https://letterboxd.com/film/the-texas-chain-saw-massacre/
+Nightcrawler,Dan Gilroy,"['Jake Gyllenhaal', 'Riz Ahmed', 'Rene Russo']",4.04,1493778,https://letterboxd.com/film/nightcrawler/
+The Sound of Music,Robert Wise,"['Julie Andrews', 'Christopher Plummer', 'Eleanor Parker']",4.1,623563,https://letterboxd.com/film/the-sound-of-music/
+The Banshees of Inisherin,Martin McDonagh,"['Colin Farrell', 'Brendan Gleeson', 'Kerry Condon']",4.11,1019228,https://letterboxd.com/film/the-banshees-of-inisherin/
+Notting Hill,Roger Michell,"['Julia Roberts', 'Hugh Grant', 'Gina McKee']",3.62,806916,https://letterboxd.com/film/notting-hill/
+Magnolia,Paul Thomas Anderson,"['Jeremy Blackman', 'Tom Cruise', 'Melinda Dillon']",4.22,462717,https://letterboxd.com/film/magnolia/
+Zodiac,David Fincher,"['Jake Gyllenhaal', 'Mark Ruffalo', 'Anthony Edwards']",4.02,1514458,https://letterboxd.com/film/zodiac/
+Nope,Jordan Peele,"['Daniel Kaluuya', 'Keke Palmer', 'Brandon Perea']",3.73,1619622,https://letterboxd.com/film/nope/
+Mysterious Skin,Gregg Araki,"['Joseph Gordon-Levitt', 'Brady Corbet', 'Michelle Trachtenberg']",4.18,260605,https://letterboxd.com/film/mysterious-skin/
+Life Is Beautiful,Roberto Benigni,"['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini']",4.34,586361,https://letterboxd.com/film/life-is-beautiful/
+Amadeus,Miloš Forman,"['F. Murray Abraham', 'Tom Hulce', 'Elizabeth Berridge']",4.32,446777,https://letterboxd.com/film/amadeus/
+Top Gun: Maverick,Joseph Kosinski,"['Tom Cruise', 'Miles Teller', 'Jon Hamm']",3.99,1510895,https://letterboxd.com/film/top-gun-maverick/
+Legally Blonde,Robert Luketic,"['Reese Witherspoon', 'Luke Wilson', 'Selma Blair']",3.77,1196021,https://letterboxd.com/film/legally-blonde/
+Catch Me If You Can,Steven Spielberg,"['Leonardo DiCaprio', 'Tom Hanks', 'Christopher Walken']",4.03,1815081,https://letterboxd.com/film/catch-me-if-you-can-2002/
+Dirty Dancing,Emile Ardolino,"['Jennifer Grey', 'Patrick Swayze', 'Jerry Orbach']",3.64,717555,https://letterboxd.com/film/dirty-dancing/
+13 Going on 30,Gary Winick,"['Jennifer Garner', 'Mark Ruffalo', 'Judy Greer']",3.56,1080301,https://letterboxd.com/film/13-going-on-30/
+Whisper of the Heart,Yoshifumi Kondo,"['Yoko Honna', 'Issey Takahashi', 'Takashi Tachibana']",4.15,327430,https://letterboxd.com/film/whisper-of-the-heart/
+Into the Wild,Sean Penn,"['Emile Hirsch', 'Marcia Gay Harden', 'William Hurt']",3.79,655019,https://letterboxd.com/film/into-the-wild/
+Birdman or (The Unexpected Virtue of Ignorance),Alejandro González Iñárritu,"['Michael Keaton', 'Emma Stone', 'Zach Galifianakis']",3.99,1256270,https://letterboxd.com/film/birdman-or-the-unexpected-virtue-of-ignorance/
+Evil Dead II,Sam Raimi,"['Bruce Campbell', 'Sarah Berry', 'Dan Hicks']",4.02,402829,https://letterboxd.com/film/evil-dead-ii/
+Mommy,Xavier Dolan,"['Anne Dorval', 'Antoine Olivier Pilon', 'Suzanne Clément']",4.31,248809,https://letterboxd.com/film/mommy-2014/
+Coco,Lee Unkrich,"['Anthony Gonzalez', 'Gael García Bernal', 'Benjamin Bratt']",4.12,2394409,https://letterboxd.com/film/coco-2017/
+Saw,James Wan,"['Cary Elwes', 'Leigh Whannell', 'Danny Glover']",3.61,919591,https://letterboxd.com/film/saw/
+Suspiria,Dario Argento,"['Jessica Harper', 'Stefania Casini', 'Flavio Bucci']",3.95,485310,https://letterboxd.com/film/suspiria/
+The Pianist,Roman Polanski,"['Adrien Brody', 'Thomas Kretschmann', 'Frank Finlay']",4.36,928423,https://letterboxd.com/film/the-pianist/
+In Bruges,Martin McDonagh,"['Colin Farrell', 'Brendan Gleeson', 'Ralph Fiennes']",4.11,573183,https://letterboxd.com/film/in-bruges/
+Twin Peaks: Fire Walk with Me,David Lynch,"['Sheryl Lee', 'Ray Wise', 'Mädchen Amick']",4.17,285792,https://letterboxd.com/film/twin-peaks-fire-walk-with-me/
+Sound of Metal,Darius Marder,"['Riz Ahmed', 'Olivia Cooke', 'Paul Raci']",4.19,668349,https://letterboxd.com/film/sound-of-metal/
+What We Do in the Shadows,"Taika Waititi, Jemaine Clement","['Taika Waititi', 'Jemaine Clement', 'Jonny Brugh']",4.11,664197,https://letterboxd.com/film/what-we-do-in-the-shadows/
+The Hunger Games,Gary Ross,"['Jennifer Lawrence', 'Josh Hutcherson', 'Liam Hemsworth']",3.64,2384017,https://letterboxd.com/film/the-hunger-games/
+The Parent Trap,Nancy Meyers,"['Lindsay Lohan', 'Dennis Quaid', 'Natasha Richardson']",3.67,990941,https://letterboxd.com/film/the-parent-trap-1998/
+Uncut Gems,"Josh Safdie, Benny Safdie","['Adam Sandler', 'LaKeith Stanfield', 'Julia Fox']",3.95,1426629,https://letterboxd.com/film/uncut-gems/
+It,Andy Muschietti,"['Jaeden Martell', 'Sophia Lillis', 'Jack Dylan Grazer']",3.43,2181710,https://letterboxd.com/film/it-2017/
+Rocky,John G. Avildsen,"['Sylvester Stallone', 'Talia Shire', 'Burt Young']",4.07,842179,https://letterboxd.com/film/rocky/
