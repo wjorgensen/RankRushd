@@ -1,46 +1,177 @@
 .movieCard {
-    //background-color: #fff;
     border: 5px solid #fff;
     border-radius: 10px;
     padding: 20px;
     position: relative;
-    width: 30%;
-    height: 80%;
-  }
+    width: 35%;
+    height: 90%;
+}
   
-  .movieImage {
+.movieImage {
     display: block;
     margin: 0 auto;
     margin-top: 1vh;
     max-height: 40%;
-  }
+}
   
-  .movieName {
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: center;
-  }
+.movieName {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+}
   
-  .director,
-  .cast,
-  .totalWatched {
-    margin-top: 10px;
-  }
+.director,
+.cast,
+.totalWatched {
+  margin-top: 10px;
+}
   
-  .revealBox {
-    background-color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-  }
-  
-  .buttonsContainer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+.revealBox {
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
 
-    
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  
+
+  button{
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin-top: 1.5vh;
+    font-size: 2vw;
+    height: 10vh;
+
+    &:active{
+      color: black;
+      background-color: white;
+    }
   }
+}
+
+.buttonsContainerNH {
+  display: flex;
+  flex-direction: column;
+  
+  button{
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin-top: 1.5vh;
+    font-size: 2vw;
+    height: 16vh;
+
+    &:active{
+      color: black;
+      background-color: white;
+    }
+  }
+}
+
+.withHints{
+  button{
+    height: 7vh;
+  }
+}
+
+.rating{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  div{
+      width: 5vw;
+      height: 5vw;
+      border-radius: 100px;
+      background-color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+
+    p{
+      font-size: 2vw;
+      color: red;
+      font-family: 'Roboto';
+    }
+  }
+}
+
+.leftStats{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  div{
+    width: 90%;
+    text-align: center;
+
+    h1{
+      color: red;
+    }
+
+    p{
+      margin-top: 0.5vh;
+      font-size: 1.5vw;
+      margin-bottom: 1vh;
+    }
+  }
+}
+
+.cast{
+  text-align: center;
+  margin-top: 0;
+  width: 50%;
+
+  h1{
+    color: red;
+  }
+
+  p{
+    margin-top: 1vh;
+    font-size: 1.5vw;
+  }
+}
+
+.statsWrapper{
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto';
+  margin-top: 2vh;
+}
+
+.fadeOut {
+  animation: fadeOutAnimation 1s forwards;
+}
+
+@keyframes fadeOutAnimation {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.slideDown {
+  animation: slideDownAnimation 1s forwards;
+}
+
+@keyframes slideDownAnimation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px); // Adjust as needed
+  }
+}
+

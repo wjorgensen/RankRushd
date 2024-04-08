@@ -42,16 +42,56 @@ export default function Home() {
     return shuffled.slice(0, count);
   };
 
-  const handleHintUsed = () => {
-    if (numHints > 0) {
+  const handleHintUsed = ():boolean => {
+    if(numHints < 0){
+      return true;
+    } else if(numHints === 0) {
+      return false;
+    } else {
       setHints(numHints - 1);
+      return true;
     }
   };
 
-  const handleGuess = (guess: 'higher' | 'lower') => {
-    // Implement the game logic for handling the user's guess
-    // Update the score, lives, etc. based on the guess
+  const handleGuess = (guess: 'higher' | 'lower'):boolean => {
+    //setTimeout(() => {
+      if(guess === 'higher'){
+          if((openMovie?.Average_rating ?? 0) < (guessMovie?.Average_rating ?? 0)){
+            handleCorrectGuess();
+            return true;
+          }
+          else{
+            handleWrongGuess();
+            return false;
+          }
+      }else {
+        if((openMovie?.Average_rating ?? 0) >= (guessMovie?.Average_rating ?? 0)){
+          handleCorrectGuess();
+          return true;
+        }
+        else{
+          handleWrongGuess();
+          return false;
+        }
+      }
+    //}, 1500);
+    return false;
   };
+
+  const handleWrongGuess = () => {
+      setLives(lives - 1);
+      if(lives === 0){
+        endGame();
+      }
+  }
+
+  const handleCorrectGuess = () => {
+    setScore(score+1)
+  }
+
+  const endGame = () => {
+
+  }
 
   useEffect(() => {
     const parsedLives = parseInt(router.query.lives as string, 10);
@@ -111,26 +151,27 @@ export default function Home() {
             </button>
         </div>
         <div className={styles.stats}>
-            <div className={styles.lives}>
-            <p>Lives: </p>
-            {Array.from({ length: lives }, (_, index) => (
-                <Image key={index} src="/heart.svg" alt="Life" width={30} height={30} />
-            ))}
-            </div>
-            <div className={styles.numStats}>
-                <p>Score: {score}</p>
-                {hints === "ON" ? <p>Hints: {numHints}</p> : ""}
-            </div>
+          <div className={styles.lives}>
+          <p>Lives: </p>
+          {Array.from({ length: lives }, (_, index) => (
+            <Image key={index} src="/heart.svg" alt="Life" width={30} height={30} />
+          ))}
+          </div>
+          <div className={styles.numStats}>
+            <p>Score: {score}</p>
+            {hints === "ON" ? (numHints === -1 ? <p>Hints: {"∞"}</p> : <p>Hints: {numHints}</p>) : ""}
+          </div>
         </div> 
         <div className={styles.gameContainer}>
         {openMovie && (
           <MovieCard
-            imageUrl={"https://a.ltrbxd.com/resized/sm/upload/3p/mh/wq/v9/6Ryitt95xrO8KXuqRGm1fUuNwqF-0-1000-0-1500-crop.jpg?v=2a90bd6512"}
+            imageUrl={openMovie.Film_URL}
             movieName={openMovie.Film_title}
             rating={parseFloat(openMovie.Average_rating)}
             director={openMovie.Director}
             cast={openMovie.Cast}
             totalWatched={parseInt(openMovie.Watches, 10)}
+            isOpen={true}
             hints={false}
             onHintUsed={handleHintUsed}
             onGuess={handleGuess}
@@ -138,12 +179,13 @@ export default function Home() {
         )}
         {guessMovie && (
           <MovieCard
-            imageUrl={"https://a.ltrbxd.com/resized/sm/upload/3p/mh/wq/v9/6Ryitt95xrO8KXuqRGm1fUuNwqF-0-1000-0-1500-crop.jpg?v=2a90bd6512"}
+            imageUrl={guessMovie.Film_URL}
             movieName={guessMovie.Film_title}
             rating={parseFloat(guessMovie.Average_rating)}
             director={guessMovie.Director}
             cast={guessMovie.Cast}
             totalWatched={parseInt(guessMovie.Watches, 10)}
+            isOpen={false}
             hints={hints === 'ON'}
             onHintUsed={handleHintUsed}
             onGuess={handleGuess}

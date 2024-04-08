@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import Overlay from '@/components/overlay/Overlay';
 
 export default function Home() {
-    const [selectedHints, setSelectedHints] = useState("ON");
+    const [selectedHints, setSelectedHints] = useState("OFF");
     const [selectedNumHints, setSelectedNumHints] = useState("1");
     const [selectedDifficulty, setSelectedDifficulty] = useState("Casual");
     const [selectedLives, setSelectedLives] = useState("1");
@@ -45,7 +45,11 @@ export default function Home() {
             if (overlayTrigger === 'logo') {
                 router.push('/');
             } else if (overlayTrigger === 'play') {
-                router.push('/game?hints=' + selectedHints + '&numHints=' + selectedNumHints+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
+                if(selectedNumHints === 'Infinite'){
+                    router.push('/game?hints=' + selectedHints + '&numHints=' +'-1'+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
+                }else{
+                    router.push('/game?hints=' + selectedHints + '&numHints=' + selectedNumHints+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
+                }
             }
           }, 500);
       
