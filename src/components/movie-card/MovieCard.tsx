@@ -13,6 +13,7 @@ interface MovieCardProps {
   hints: boolean;
   onHintUsed?: () => boolean; 
   onGuess?: (guess: 'higher' | 'lower') => boolean; 
+  onOpenChange?: (isOpen: boolean) => void;
 }
 
 export default function MovieCard({
@@ -26,6 +27,7 @@ export default function MovieCard({
   hints,
   onHintUsed,
   onGuess,
+  onOpenChange
 }: MovieCardProps) {
   const [isRevealed, setIsRevealed] = useState({
     director: false,
@@ -54,21 +56,25 @@ export default function MovieCard({
   const [isAnimating, setIsAnimating] = useState(false);
 
   const handleGuess = (guess: 'higher' | 'lower') => {
-    // Start the animation
     setIsAnimating(true);
+    setShowRating(true);
+    animateRating(0, rating, 1000);
   
-    // Mock duration for the animation
-    const animationDuration = 1000; // 1 second, adjust based on your CSS animation
+    const animationDuration = 2000;
+  
+    setTimeout(() => {
+      if (onGuess) {
+        onGuess(guess);
+      }
+    }, animationDuration);
   
     setTimeout(() => {
       setIsAnimating(false);
-      // Here, you need to ensure the parent component can update the isOpen state
-      // This could be done via a prop function like `onOpenChange(true)`
-    }, animationDuration);
-  
-    if(onGuess){
-      onGuess(guess);
-    }
+      if (onOpenChange) {
+        onOpenChange(true);
+      }
+      setShowRating(false);
+    }, animationDuration + 1000);
   };
   
 
@@ -102,6 +108,25 @@ export default function MovieCard({
     }
 
     return formattedDigits.join('');
+  };
+
+  const [showRating, setShowRating] = useState(false);
+  const [animatedRating, setAnimatedRating] = useState(0);
+
+  const animateRating = (start: number, end:number, duration:number) => {
+    let startTime:number;
+  
+    const step = (currentTime:number) => {
+      startTime = startTime || currentTime;
+      const progress = Math.min((currentTime - startTime) / duration, 1);
+      setAnimatedRating(start + (end - start) * progress);
+  
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    };
+  
+    requestAnimationFrame(step);
   };
 
 
@@ -139,6 +164,13 @@ export default function MovieCard({
         <>
           {hints && (
             <>
+              {showRating && (
+                <div className={styles.rating}>
+                  <div>
+                    <p>{animatedRating.toFixed(1)}</p>
+                  </div>
+                </div>
+              )}
               <div className={classNames(styles.statsWrapper, { [styles.slideDown]: isAnimating })}>
                 <div className={styles.statsWrapper}>
                   <div className={styles.leftStats}>

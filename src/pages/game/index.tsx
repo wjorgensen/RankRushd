@@ -20,20 +20,24 @@ export default function Home() {
   const router = useRouter();
   const { hints, difficulty } = router.query;
   const [showOverlay, setShowOverlay] = useState(false);
-  const [showContent, setShowContent] = useState(false);
+  //set to true before deploy
+  const [showOverlay2, setShowOverlay2] = useState(false);
   const [overlayTrigger, setOverlayTrigger] = useState('');
   const [score, setScore] = useState(0);
   const [lives, setLives] = useState(0);
   const [numHints, setHints] = useState(0);
   const [openMovie, setOpenMovie] = useState<MovieData | null>(null);
   const [guessMovie, setGuessMovie] = useState<MovieData | null>(null);
+  const [thirdMovie, setThirdMovie] = useState<MovieData | null>(null);
+  const [isSliding, setIsSliding] = useState(false);
 
 
   useEffect(() => {
     if (movieData.length > 0) {
-      const randomMovies = getRandomMovies(movieData, 2);
+      const randomMovies = getRandomMovies(movieData, 3);
       setOpenMovie(randomMovies[0]);
       setGuessMovie(randomMovies[1]);
+      setThirdMovie(randomMovies[2]);
     }
   }, [movieData]);
 
@@ -54,7 +58,7 @@ export default function Home() {
   };
 
   const handleGuess = (guess: 'higher' | 'lower'):boolean => {
-    //setTimeout(() => {
+    setTimeout(() => {
       if(guess === 'higher'){
           if((openMovie?.Average_rating ?? 0) < (guessMovie?.Average_rating ?? 0)){
             handleCorrectGuess();
@@ -74,7 +78,7 @@ export default function Home() {
           return false;
         }
       }
-    //}, 1500);
+    }, 1500);
     return false;
   };
 
@@ -140,11 +144,43 @@ export default function Home() {
       }, 500);
   
       return () => clearTimeout(timer);
-};
+  };
+
+  const handleOverlayTransitionEnd2 = () => {
+    setShowOverlay2(false);
+  };
+
+  const handleOpenChange = (isOpen: boolean) => {
+    if (!isOpen || lives <= 0) return;
+  
+    setIsSliding(true);
+
+    setTimeout(() => {
+      setIsSliding(false);
+      updateMovies();
+    }, 1000); 
+  };
+
+  const updateMovies = () => {
+    setOpenMovie(guessMovie);
+
+    let remainingMovies = movieData.filter(movie => movie !== openMovie && movie !== guessMovie && movie !== thirdMovie);
+
+    remainingMovies = remainingMovies.sort(() => 0.5 - Math.random());
+
+    const newGuessMovie = remainingMovies[0];
+    const newThirdMovie = remainingMovies[1] || remainingMovies[0]; 
+
+    setGuessMovie(thirdMovie);
+    setThirdMovie(newThirdMovie);
+  };
+  
+  
 
   return (
     <>
         {showOverlay && <Overlay direction="down" onTransitionEnd={handleOverlayTransitionEnd} />}
+        {showOverlay2 && <Overlay direction="up" onTransitionEnd={handleOverlayTransitionEnd2} />}
         <div className={styles.logo}>
             <button onClick={handleLogoClick}>
                 <p>Rank Rushd</p>
@@ -162,35 +198,60 @@ export default function Home() {
             {hints === "ON" ? (numHints === -1 ? <p>Hints: {"∞"}</p> : <p>Hints: {numHints}</p>) : ""}
           </div>
         </div> 
-        <div className={styles.gameContainer}>
-        {openMovie && (
-          <MovieCard
-            imageUrl={openMovie.Film_URL}
-            movieName={openMovie.Film_title}
-            rating={parseFloat(openMovie.Average_rating)}
-            director={openMovie.Director}
-            cast={openMovie.Cast}
-            totalWatched={parseInt(openMovie.Watches, 10)}
-            isOpen={true}
-            hints={false}
-            onHintUsed={handleHintUsed}
-            onGuess={handleGuess}
-          />
-        )}
-        {guessMovie && (
-          <MovieCard
-            imageUrl={guessMovie.Film_URL}
-            movieName={guessMovie.Film_title}
-            rating={parseFloat(guessMovie.Average_rating)}
-            director={guessMovie.Director}
-            cast={guessMovie.Cast}
-            totalWatched={parseInt(guessMovie.Watches, 10)}
-            isOpen={false}
-            hints={hints === 'ON'}
-            onHintUsed={handleHintUsed}
-            onGuess={handleGuess}
-          />
-        )}
+      <div className={styles.gameContainer}>
+        <div className={`${isSliding ? styles.slideOutLeft : ''}`}>
+          {openMovie && (
+            <MovieCard
+              imageUrl={openMovie.Film_URL}
+              movieName={openMovie.Film_title}
+              rating={parseFloat(openMovie.Average_rating)}
+              director={openMovie.Director}
+              cast={openMovie.Cast}
+              totalWatched={parseInt(openMovie.Watches, 10)}
+              isOpen={true}
+              hints={false}
+              onHintUsed={handleHintUsed}
+              onGuess={handleGuess}
+              onOpenChange={handleOpenChange}
+            />
+          )}
+        </div>
+        <div className={isSliding ? styles.slideOutLeft : ''}>
+          {guessMovie && (
+            <MovieCard
+              imageUrl={guessMovie.Film_URL}
+              movieName={guessMovie.Film_title}
+              rating={parseFloat(guessMovie.Average_rating)}
+              director={guessMovie.Director}
+              cast={guessMovie.Cast}
+              totalWatched={parseInt(guessMovie.Watches, 10)}
+              isOpen={false}
+              hints={hints === 'ON'}
+              onHintUsed={handleHintUsed}
+              onGuess={handleGuess}
+              onOpenChange={handleOpenChange}
+            />
+          )}
+        </div>
+        <div className={(isSliding ? styles.slideOutLeft : '' )}>
+          <div className={styles.thirdMovie}>
+            {thirdMovie && (
+              <MovieCard
+              imageUrl={thirdMovie.Film_URL}
+              movieName={thirdMovie.Film_title}
+              rating={parseFloat(thirdMovie.Average_rating)}
+              director={thirdMovie.Director}
+              cast={thirdMovie.Cast}
+              totalWatched={parseInt(thirdMovie.Watches, 10)}
+              isOpen={false}
+              hints={hints === 'ON'}
+              onHintUsed={handleHintUsed}
+              onGuess={handleGuess}
+              onOpenChange={handleOpenChange}
+              />
+            )}
+          </div>
+        </div>
       </div>
     </>
   );

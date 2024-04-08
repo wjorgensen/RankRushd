@@ -1,9 +1,10 @@
 .logo{
+    position: absolute;
+    top: 2vh;
+    left: 0.5vw;
+    display: flex;
 
     button{
-        position: absolute;
-        top: 2vh;
-        left: 0.5vw;
         border: none;
         color: red;
         font-family: 'Great Vibes', sans-serif;
@@ -11,7 +12,8 @@
         font-size: 4vw;
         border-radius: 20px;
         width: 22vw;
-        padding-right: 0.3vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vh;
 
         display: flex;
         justify-content: center;
@@ -54,10 +56,24 @@
 }
 
 .gameContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15vh;
-    height: 85vh;
-    gap: 8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+        height: 85vh;
+        gap: 8vw;
+        width: 150%;
+}
+
+.slideOutLeft {
+    animation: slideOutLeft 1s forwards;
   }
+  
+  
+  @keyframes slideOutLeft {
+    to {
+      transform: translateX(-48vw);
+    }
+  }
+
+  
