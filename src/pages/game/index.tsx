@@ -45,7 +45,7 @@ export default function Home() {
 
   const getRandomMovies = (movies: MovieData[], count: number): MovieData[] => {
     const validMovies = movies.filter(movie => movie.Film_title !== "Film_title");
-    const shuffled = [...movies].sort(() => 0.5 - Math.random());
+    const shuffled = [...validMovies].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
   };
 
