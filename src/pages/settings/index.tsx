@@ -12,6 +12,7 @@ export default function Home() {
     const [showOverlay, setShowOverlay] = useState(false);
     const [showContent, setShowContent] = useState(false);
     const [overlayTrigger, setOverlayTrigger] = useState('');
+    const [gameRoute, setGameRoute] = useState('');
     const router = useRouter();
 
     const handleHintsClick = (value: string) => {
@@ -45,11 +46,7 @@ export default function Home() {
             if (overlayTrigger === 'logo') {
                 router.push('/');
             } else if (overlayTrigger === 'play') {
-                if(selectedNumHints === 'Infinite'){
-                    router.push('/game?hints=' + selectedHints + '&numHints=' +'-1'+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
-                }else{
-                    router.push('/game?hints=' + selectedHints + '&numHints=' + selectedNumHints+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
-                }
+                router.push(gameRoute);  
             }
           }, 500);
       
@@ -63,6 +60,16 @@ export default function Home() {
     
         return () => clearTimeout(timer);
       }, []);
+
+      useEffect(() => {
+        if(selectedNumHints === 'Infinite'){
+             setGameRoute('/game?hints=' + selectedHints + '&numHints=' +'-1'+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
+        }else{
+            setGameRoute('/game?hints=' + selectedHints + '&numHints=' + selectedNumHints+'&difficulty='+selectedDifficulty+'&lives='+selectedLives);
+        }
+
+        localStorage.setItem('gameRoute', gameRoute);
+      });
 
     return (
         <>

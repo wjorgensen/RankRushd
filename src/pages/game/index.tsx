@@ -20,8 +20,7 @@ export default function Home() {
   const router = useRouter();
   const { hints, difficulty } = router.query;
   const [showOverlay, setShowOverlay] = useState(false);
-  //set to true before deploy
-  const [showOverlay2, setShowOverlay2] = useState(false);
+  const [showOverlay2, setShowOverlay2] = useState(true);
   const [overlayTrigger, setOverlayTrigger] = useState('');
   const [score, setScore] = useState(0);
   const [lives, setLives] = useState(0);
@@ -108,9 +107,19 @@ export default function Home() {
   }
 
   const endGame = () => {
-    console.log("ended");
-    setOverlayTrigger('endGame');
-    setShowOverlay(true);
+    if (typeof window !== "undefined") {  
+      const currentHighestScore = localStorage.getItem('highscore');
+      const highestEverScore = currentHighestScore ? parseInt(currentHighestScore, 10) : 0;
+
+      if (score > highestEverScore) {
+        localStorage.setItem('highscore', score.toString());
+      }
+
+      localStorage.setItem('score', score.toString());
+
+      setOverlayTrigger('endGame');
+      setShowOverlay(true);
+    }
   }
 
   useEffect(() => {
