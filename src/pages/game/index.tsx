@@ -9,7 +9,9 @@ import MovieCard from '@/components/movie-card/MovieCard';
 interface MovieData {
   Film_title: string;
   Director: string;
-  Cast: string;
+  Actor1: string;
+  Actor2: string;
+  Actor3: string;
   Average_rating: string;
   Watches: string;
   Film_URL: string;
@@ -236,7 +238,9 @@ export default function Home() {
               movieName={openMovie.Film_title}
               rating={parseFloat(openMovie.Average_rating)}
               director={openMovie.Director}
-              cast={openMovie.Cast}
+              actor1 = {openMovie.Actor1}
+              actor2 = {openMovie.Actor2}
+              actor3 = {openMovie.Actor3}
               totalWatched={parseInt(openMovie.Watches, 10)}
               isOpen={true}
               hints={false}
@@ -253,7 +257,9 @@ export default function Home() {
               movieName={guessMovie.Film_title}
               rating={parseFloat(guessMovie.Average_rating)}
               director={guessMovie.Director}
-              cast={guessMovie.Cast}
+              actor1 = {guessMovie.Actor1}
+              actor2 = {guessMovie.Actor2}
+              actor3 = {guessMovie.Actor3}
               totalWatched={parseInt(guessMovie.Watches, 10)}
               isOpen={false}
               hints={hints === 'ON'}
@@ -271,7 +277,9 @@ export default function Home() {
               movieName={thirdMovie.Film_title}
               rating={parseFloat(thirdMovie.Average_rating)}
               director={thirdMovie.Director}
-              cast={thirdMovie.Cast}
+              actor1 = {thirdMovie.Actor1}
+              actor2 = {thirdMovie.Actor2}
+              actor3 = {thirdMovie.Actor3}
               totalWatched={parseInt(thirdMovie.Watches, 10)}
               isOpen={false}
               hints={hints === 'ON'}
