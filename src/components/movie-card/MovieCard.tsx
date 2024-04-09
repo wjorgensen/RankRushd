@@ -60,20 +60,31 @@ export default function MovieCard({
     setShowRating(true);
     animateRating(0, rating, 1000);
   
-    const animationDuration = 2000;
+    const animationDuration = 2500;
+    let triggerSlide: boolean = true;
   
-    setTimeout(() => {
+    setTimeout(() => { 
       if (onGuess) {
-        onGuess(guess);
+        triggerSlide = onGuess(guess);
+      }
+      if (onOpenChange) {
+        if(triggerSlide){
+          onOpenChange(true);
+        }
       }
     }, animationDuration);
   
     setTimeout(() => {
-      setIsAnimating(false);
-      if (onOpenChange) {
-        onOpenChange(true);
+      if(triggerSlide){
+        setIsAnimating(false);
+        setShowRating(false);
+        setIsRevealed((prevState) => ({
+          ...prevState,
+          ['director']: false,
+          ['cast']: false,
+          ['totalWatched']: false,
+        }));
       }
-      setShowRating(false);
     }, animationDuration + 1000);
   };
   
@@ -113,16 +124,19 @@ export default function MovieCard({
   const [showRating, setShowRating] = useState(false);
   const [animatedRating, setAnimatedRating] = useState(0);
 
-  const animateRating = (start: number, end:number, duration:number) => {
-    let startTime:number;
+  const animateRating = (start: number, end: number, duration: number) => {
+    let startTime: number;
   
-    const step = (currentTime:number) => {
+    const step = (currentTime: number) => {
       startTime = startTime || currentTime;
       const progress = Math.min((currentTime - startTime) / duration, 1);
-      setAnimatedRating(start + (end - start) * progress);
+      const currentRating = start + (end - start) * progress;
+      setAnimatedRating(currentRating);
   
       if (progress < 1) {
         requestAnimationFrame(step);
+      } else {
+        setAnimatedRating(end);
       }
     };
   
@@ -162,15 +176,15 @@ export default function MovieCard({
         </>
       ) : (
         <>
+          {showRating && (
+            <div className={styles.rating}>
+              <div>
+                <p>{animatedRating.toFixed(2)}</p>
+              </div>
+            </div>
+          )}
           {hints && (
             <>
-              {showRating && (
-                <div className={styles.rating}>
-                  <div>
-                    <p>{animatedRating.toFixed(1)}</p>
-                  </div>
-                </div>
-              )}
               <div className={classNames(styles.statsWrapper, { [styles.slideDown]: isAnimating })}>
                 <div className={styles.statsWrapper}>
                   <div className={styles.leftStats}>

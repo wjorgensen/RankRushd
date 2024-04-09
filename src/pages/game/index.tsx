@@ -30,6 +30,7 @@ export default function Home() {
   const [guessMovie, setGuessMovie] = useState<MovieData | null>(null);
   const [thirdMovie, setThirdMovie] = useState<MovieData | null>(null);
   const [isSliding, setIsSliding] = useState(false);
+  const [endgame, setEndGame] = useState(false);
 
 
   useEffect(() => {
@@ -58,7 +59,6 @@ export default function Home() {
   };
 
   const handleGuess = (guess: 'higher' | 'lower'):boolean => {
-    setTimeout(() => {
       if(guess === 'higher'){
           if((openMovie?.Average_rating ?? 0) < (guessMovie?.Average_rating ?? 0)){
             handleCorrectGuess();
@@ -66,7 +66,11 @@ export default function Home() {
           }
           else{
             handleWrongGuess();
-            return false;
+            if(lives === 1){
+              setEndGame(true);
+              return false;
+            }
+            return true;
           }
       }else {
         if((openMovie?.Average_rating ?? 0) >= (guessMovie?.Average_rating ?? 0)){
@@ -75,26 +79,38 @@ export default function Home() {
         }
         else{
           handleWrongGuess();
-          return false;
+          if(lives === 1){
+            setEndGame(true);
+            return false;
+          }
+          return true;
         }
       }
-    }, 1500);
-    return false;
   };
 
   const handleWrongGuess = () => {
-      setLives(lives - 1);
-      if(lives === 0){
-        endGame();
-      }
+    setTimeout(() => {
+      setLives((currentLives) => {
+        if(currentLives <= 1){
+          endGame();
+          return 0;
+        } else {
+          return currentLives - 1;
+        }
+      });
+    }, 600);
   }
 
   const handleCorrectGuess = () => {
-    setScore(score+1)
+    setTimeout(() => {
+      setScore(score+1)
+    }, 800);
   }
 
   const endGame = () => {
-
+    console.log("ended");
+    setOverlayTrigger('endGame');
+    setShowOverlay(true);
   }
 
   useEffect(() => {
@@ -141,6 +157,9 @@ export default function Home() {
         if (overlayTrigger === 'logo') {
             router.push('/');
         }
+        if( overlayTrigger === 'endGame') {
+          router.push('/end');
+        }
       }, 500);
   
       return () => clearTimeout(timer);
@@ -151,9 +170,11 @@ export default function Home() {
   };
 
   const handleOpenChange = (isOpen: boolean) => {
-    if (!isOpen || lives <= 0) return;
-  
-    setIsSliding(true);
+    if (!isOpen || endgame) return;
+    
+    if(!endgame){
+      setIsSliding(true);
+    }
 
     setTimeout(() => {
       setIsSliding(false);
