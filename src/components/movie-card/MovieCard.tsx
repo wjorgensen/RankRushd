@@ -7,7 +7,9 @@ interface MovieCardProps {
   movieName: string;
   rating: number;
   director: string;
-  cast: string;
+  actor1: string; 
+  actor2: string;
+  actor3: string;
   totalWatched: number;
   isOpen: boolean; 
   hints: boolean;
@@ -21,7 +23,9 @@ export default function MovieCard({
   movieName,
   rating,
   director,
-  cast,
+  actor1,
+  actor2,
+  actor3,
   totalWatched,
   isOpen,
   hints,
@@ -99,25 +103,6 @@ export default function MovieCard({
   const cardClasses = classNames(styles.movieCard, {
     [styles.withHints]: !isOpen && hints,
   });
-
-  const breakdownCast = (cast: string): [string, string, string] => {
-    const actors = cast.slice(1, -1) 
-                      .split(",") 
-                      .map(actor => actor.trim().replace(/^"|"$/g, '')) 
-                      .filter(Boolean); 
-
-    while (actors.length < 3) {
-        actors.push('');
-    }
-
-    const [actor1, actor2, actor3] = actors;
-
-    return [actor1, actor2, actor3];
-};
-
-
-
-  const [actor1, actor2, actor3] = breakdownCast(cast);
 
   const formatNumber = (num: number): string => {
     const numString = num.toString();
