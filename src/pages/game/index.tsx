@@ -59,7 +59,7 @@ export default function Home() {
 
   const handleGuess = (guess: 'higher' | 'lower'):boolean => {
       if(guess === 'higher'){
-          if((openMovie?.Average_rating ?? 0) < (guessMovie?.Average_rating ?? 0)){
+          if((openMovie?.Average_rating ?? 0) <= (guessMovie?.Average_rating ?? 0)){
             handleCorrectGuess();
             return true;
           }
@@ -107,7 +107,7 @@ export default function Home() {
   }
 
   const endGame = () => {
-    if (typeof window !== "undefined") {  
+    if (typeof window !== "undefined") { 
       const currentHighestScore = localStorage.getItem('highscore');
       const highestEverScore = currentHighestScore ? parseInt(currentHighestScore, 10) : 0;
 

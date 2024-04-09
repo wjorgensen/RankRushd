@@ -41,7 +41,7 @@ export default function Home() {
 
 
     useEffect(() => {
-        const currentScore = parseInt(localStorage.getItem('currentScore') || '0', 10);
+        const currentScore = parseInt(localStorage.getItem('score') || '0', 10);
         const highscore = parseInt(localStorage.getItem('highscore') || '0', 10);
         setScore(currentScore);
         setHScore(highscore);

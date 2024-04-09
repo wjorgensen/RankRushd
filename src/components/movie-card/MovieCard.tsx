@@ -56,6 +56,12 @@ export default function MovieCard({
   const [isAnimating, setIsAnimating] = useState(false);
 
   const handleGuess = (guess: 'higher' | 'lower') => {
+    setIsRevealed((prevState) => ({
+      ...prevState,
+      ['director']: true,
+      ['cast']: true,
+      ['totalWatched']: true,
+    }));
     setIsAnimating(true);
     setShowRating(true);
     animateRating(0, rating, 1000);
