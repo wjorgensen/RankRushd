@@ -1,0 +1,79 @@
+.logo{
+    position: absolute;
+    top: 2vh;
+    left: 0.5vw;
+    display: flex;
+
+    button{
+        border: none;
+        color: red;
+        font-family: 'Great Vibes', sans-serif;
+        background-color: black;
+        font-size: 4vw;
+        border-radius: 20px;
+        width: 22vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+
+}
+
+.stats{
+    position: absolute;
+    right: 5vw;
+    top: 3vh;
+
+    .lives{
+        display: flex;
+    }
+    
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2vw;
+    }
+
+    img {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+}
+
+.numStats{
+    display: flex;
+
+    p{
+        margin-right: 1vw;
+    }
+}
+
+.gameContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+        height: 85vh;
+        gap: 8vw;
+        width: 150%;
+}
+
+.slideOutLeft {
+    animation: slideOutLeft 1s forwards;
+  }
+  
+  
+  @keyframes slideOutLeft {
+    to {
+      transform: translateX(-48vw);
+    }
+  }
+
+  

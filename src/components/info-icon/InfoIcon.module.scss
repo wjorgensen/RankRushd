@@ -1,0 +1,43 @@
+.infoIcon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1.2vw;
+      height: 1.2vw;
+      border-radius: 50%;
+      background-color: white;
+      color: black;
+      font-size: 1.2vw;
+      font-weight: bold;
+      margin-right: 1vw;
+      margin-top: 1.5vh;
+    }
+  
+    &::before {
+      content: attr(data-tooltip);
+      position: absolute;
+      top: -10vh;
+      transform: translateX(-50%);
+      padding: 5px 10px;
+      background-color: white;
+      color: black;
+      font-size: 1.2vw;
+      border-radius: 4px;
+      width: 10vw;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+      z-index: 999;
+    }
+  
+    &:hover::before {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
