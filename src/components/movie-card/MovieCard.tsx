@@ -100,14 +100,16 @@ export default function MovieCard({
   });
 
   const breakdownCast = (cast: string): [string, string, string] => {
-    const cleanedCast = cast.slice(2, -2);
-  
-    const actors = cleanedCast.split("', '");
-  
+    let actors = JSON.parse(cast);
+
+    while (actors.length < 3) {
+        actors.push('');
+    }
+
     const [actor1, actor2, actor3] = actors;
-  
+
     return [actor1, actor2, actor3];
-  };
+};
 
   const [actor1, actor2, actor3] = breakdownCast(cast);
 

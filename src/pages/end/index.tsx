@@ -6,7 +6,7 @@ import Overlay from "@/components/overlay/Overlay";
 export default function Home() {
 
     const [showOverlay, setShowOverlay] = useState(false);
-    const [showOverlay2, setShowOverlay2] = useState(false);
+    const [showOverlay2, setShowOverlay2] = useState(true);
     const [overlayTrigger, setOverlayTrigger] = useState('');
     const [score, setScore] = useState(0);
     const [hscore, setHScore] = useState(0);
