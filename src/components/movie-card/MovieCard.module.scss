@@ -44,7 +44,8 @@
   
 
   button{
-    background-color: black;
+    background-color: white;
+    color: black;
     border: 5px solid white;
     border-radius: 30px;
     margin-top: 1.5vh;
@@ -53,7 +54,8 @@
 
     &:active{
       color: black;
-      background-color: white;
+      background-color: red;
+      border: 5px solid red;
     }
   }
 }
@@ -63,16 +65,18 @@
   flex-direction: column;
   
   button{
-    background-color: black;
+    background-color: white;
+    color: black;
     border: 5px solid white;
     border-radius: 30px;
     margin-top: 1.5vh;
-    font-size: 2vw;
+    font-size: 3vw;
     height: 16vh;
 
     &:active{
       color: black;
-      background-color: white;
+      background-color: red;
+      border: 5px solid red;
     }
   }
 }
