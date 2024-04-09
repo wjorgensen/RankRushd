@@ -28,6 +28,9 @@
 }
   
 .revealBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -127,6 +130,9 @@
 }
 
 .cast{
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
   text-align: center;
   margin-top: 0;
   width: 50%;
@@ -136,7 +142,27 @@
   }
 
   p{
-    margin-top: 1vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    font-size: 1.5vw;
+  }
+}
+
+.castNotRevealed{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0;
+  width: 50%;
+
+  h1{
+    color: red;
+  }
+
+  p{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
     font-size: 1.5vw;
   }
 }

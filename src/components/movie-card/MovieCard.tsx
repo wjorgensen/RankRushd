@@ -109,7 +109,7 @@ export default function MovieCard({
     while (actors.length < 3) {
         actors.push('');
     }
-    
+
     const [actor1, actor2, actor3] = actors;
 
     return [actor1, actor2, actor3];
@@ -239,7 +239,7 @@ export default function MovieCard({
                     <p>{actor3}</p>
                   </div>
                   ) : (
-                    <div className={styles.cast}>
+                    <div className={styles.castNotRevealed}>
                       <h1>Cast</h1>
                       <div className={styles.revealBox} onClick={() => handleReveal('cast')}>
                         <p>{reveal}</p>
