@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Overlay from '@/components/overlay/Overlay';
 import styles from "@/styles/Home.module.scss";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const [isZoomed, setIsZoomed] = useState(false);
@@ -35,6 +36,8 @@ export default function Home() {
 
   return (
     <div className={`${styles.main} ${isZoomed ? styles.zoomed : ''} ${isZoomedIn ? styles.zoomedIn : ''}`}>
+      <Analytics />
+      <SpeedInsights />
       {showOverlay && <Overlay direction="up" onTransitionEnd={handleOverlayTransitionEnd} />}
       <div className={styles.backgroundImage}></div>
       <div className={styles.content}>
