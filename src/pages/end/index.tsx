@@ -89,6 +89,7 @@ export default function Home() {
             <h1>High Score</h1>
             <p>{hscore}</p>
         </div>
+        <p className={styles.link}>Directed by <a href="https://twitter.com/wezabis" target=" ">Wezabis</a></p>
         </>
     );
 }
