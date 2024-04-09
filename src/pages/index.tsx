@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Overlay from '@/components/overlay/Overlay';
 import styles from "@/styles/Home.module.scss";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   const [isZoomed, setIsZoomed] = useState(false);
