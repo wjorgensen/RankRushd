@@ -56,6 +56,7 @@ export default function MovieCard({
   const [isAnimating, setIsAnimating] = useState(false);
 
   const handleGuess = (guess: 'higher' | 'lower') => {
+    setAnimatedRating(0.00);
     setIsRevealed((prevState) => ({
       ...prevState,
       ['director']: true,
@@ -100,16 +101,21 @@ export default function MovieCard({
   });
 
   const breakdownCast = (cast: string): [string, string, string] => {
-    let actors = JSON.parse(cast);
+    const actors = cast.slice(1, -1) 
+                      .split(",") 
+                      .map(actor => actor.trim().replace(/^"|"$/g, '')) 
+                      .filter(Boolean); 
 
     while (actors.length < 3) {
         actors.push('');
     }
-
+    
     const [actor1, actor2, actor3] = actors;
 
     return [actor1, actor2, actor3];
 };
+
+
 
   const [actor1, actor2, actor3] = breakdownCast(cast);
 
@@ -133,22 +139,24 @@ export default function MovieCard({
   const [animatedRating, setAnimatedRating] = useState(0);
 
   const animateRating = (start: number, end: number, duration: number) => {
-    let startTime: number;
+    setTimeout(() => {
+      let startTime: number;
   
-    const step = (currentTime: number) => {
-      startTime = startTime || currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
-      const currentRating = start + (end - start) * progress;
-      setAnimatedRating(currentRating);
-  
-      if (progress < 1) {
-        requestAnimationFrame(step);
-      } else {
-        setAnimatedRating(end);
-      }
-    };
-  
-    requestAnimationFrame(step);
+      const step = (currentTime: number) => {
+        startTime = startTime || currentTime;
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+        const currentRating = start + (end - start) * progress;
+        setAnimatedRating(currentRating);
+    
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        } else {
+          setAnimatedRating(end);
+        }
+      };
+    
+      requestAnimationFrame(step);
+    }, 500)
   };
 
 

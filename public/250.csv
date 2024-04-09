@@ -1,5 +1,5 @@
 Film_title,Director,Cast,Average_rating,Watches,Film_URL
-Film_title,Director,"[""Cast"", """", """"]",Average_rating,Watches,Film_URL
+Film_title,Director,"[""Cast""]",Average_rating,Watches,Film_URL
 La La Land,Damien Chazelle,"[""Ryan Gosling"", ""Emma Stone"", ""John Legend""]",4.08,3066347,https://a.ltrbxd.com/resized/film-poster/2/4/0/3/4/4/240344-la-la-land-0-1000-0-1500-crop.jpg?v=053670ff84
 Interstellar,Christopher Nolan,"[""Matthew McConaughey"", ""Anne Hathaway"", ""Jessica Chastain""]",4.34,3372726,https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-1000-0-1500-crop.jpg?v=7ad89e6666
 Everything Everywhere All at Once,"Daniel Scheinert, Daniel Kwan","[""Michelle Yeoh"", ""Stephanie Hsu"", ""Ke Huy Quan""]",4.31,2783713,https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-1000-0-1500-crop.jpg?v=281f1a041e
@@ -81,7 +81,7 @@ The Handmaiden,Park Chan-wook,"[""Kim Min-hee"", ""Kim Tae-ri"", ""Ha Jung-woo""
 Oppenheimer,Christopher Nolan,"[""Cillian Murphy"", ""Emily Blunt"", ""Matt Damon""]",4.24,2430969,https://a.ltrbxd.com/resized/film-poster/7/8/4/3/2/8/784328-oppenheimer-0-1000-0-1500-crop.jpg?v=e3c6e7a32c
 Knives Out,Rian Johnson,"[""Daniel Craig"", ""Chris Evans"", ""Ana de Armas""]",3.99,3172434,https://a.ltrbxd.com/resized/film-poster/4/7/5/3/7/0/475370-knives-out-0-1000-0-1500-crop.jpg?v=7da76d742c
 Alien,Ridley Scott,"[""Sigourney Weaver"", ""Tom Skerritt"", ""Ian Holm""]",4.28,1433157,https://a.ltrbxd.com/resized/sm/upload/8v/f1/qw/aa/bg7K6VtUG7Ew70gQj6SSroD5d4R-0-1000-0-1500-crop.jpg?v=a932f9e98e
-There Will Be Blood,Paul Thomas Anderson,"[""Daniel Day-Lewis"", ""Paul Dano"", """"Kevin J. OConnor""""]",4.45,978751,https://a.ltrbxd.com/resized/sm/upload/jg/cd/7y/f5/there%20will%20be%20blood-0-1000-0-1500-crop.jpg?v=8a533d5350
+There Will Be Blood,Paul Thomas Anderson,"[""Daniel Day-Lewis"", ""Paul Dano"", ""Kevin J. OConnor""]",4.45,978751,https://a.ltrbxd.com/resized/sm/upload/jg/cd/7y/f5/there%20will%20be%20blood-0-1000-0-1500-crop.jpg?v=8a533d5350
 A Clockwork Orange,Stanley Kubrick,"[""Malcolm McDowell"", ""Patrick Magee"", ""Michael Bates""]",4.13,1337735,https://a.ltrbxd.com/resized/film-poster/5/1/8/6/7/51867-a-clockwork-orange-0-1000-0-1500-crop.jpg?v=d6d5407b50
 City of God,Fernando Meirelles,"[""Alexandre Rodrigues"", ""Leandro Firmino"", ""Phellipe Haagensen""]",4.52,732104,https://a.ltrbxd.com/resized/film-poster/5/1/5/2/3/51523-city-of-god-0-1000-0-1500-crop.jpg?v=7517ea94ce
 Ratatouille,Brad Bird,"[""Patton Oswalt"", ""Lou Romano"", ""Ian Holm""]",4.2,3038905,https://a.ltrbxd.com/resized/sm/upload/n8/rl/pc/se/jEiEU8viSb8CIIHcfprVr2V6XDz-0-1000-0-1500-crop.jpg?v=25e13045f0
@@ -141,7 +141,7 @@ The Lord of the Rings: The Two Towers,Peter Jackson,"[""Elijah Wood"", ""Sean As
 Mean Girls,Mark Waters,"[""Lindsay Lohan"", ""Rachel McAdams"", ""Lizzy Caplan""]",3.83,2289151,https://a.ltrbxd.com/resized/film-poster/4/6/0/4/9/46049-mean-girls-0-1000-0-1500-crop.jpg?v=e6378abb7b
 Once Upon a Time… in Hollywood,Quentin Tarantino,"[""Leonardo DiCaprio"", ""Brad Pitt"", ""Margot Robbie""]",3.76,2434677,https://a.ltrbxd.com/resized/film-poster/3/9/7/8/5/9/397859-once-upon-a-time-in-hollywood-0-1000-0-1500-crop.jpg?v=f3e8612854
 Spider-Man: No Way Home,Jon Watts,"[""Tom Holland"", ""Zendaya"", ""Benedict Cumberbatch""]",3.85,2756319,https://a.ltrbxd.com/resized/film-poster/5/6/0/7/8/7/560787-spider-man-no-way-home-0-1000-0-1500-crop.jpg?v=a336d4f40c
-Stand by Me,Rob Reiner,"[""Wil Wheaton"", ""River Phoenix"", """"Jerry OConnell""""]",4.14,804808,https://a.ltrbxd.com/resized/film-poster/5/1/8/2/1/51821-stand-by-me-0-1000-0-1500-crop.jpg?v=b3163b5def
+Stand by Me,Rob Reiner,"[""Wil Wheaton"", ""River Phoenix"", ""Jerry OConnell""]",4.14,804808,https://a.ltrbxd.com/resized/film-poster/5/1/8/2/1/51821-stand-by-me-0-1000-0-1500-crop.jpg?v=b3163b5def
 "The Good, the Bad and the Ugly",Sergio Leone,"[""Clint Eastwood"", ""Eli Wallach"", ""Lee Van Cleef""]",4.49,591922,https://a.ltrbxd.com/resized/film-poster/5/1/6/6/6/51666-the-good-the-bad-and-the-ugly-0-1000-0-1500-crop.jpg?v=9474a84e63
 Memento,Christopher Nolan,"[""Guy Pearce"", ""Carrie-Anne Moss"", ""Joe Pantoliano""]",4.17,1489375,https://a.ltrbxd.com/resized/sm/upload/v1/3q/s4/aa/memento-0-1000-0-1500-crop.jpg?v=80f0732247
 Pan's Labyrinth,Guillermo del Toro,"[""Ivana Baquero"", ""Sergi López"", ""Maribel Verdú""]",4.17,1018927,https://a.ltrbxd.com/resized/film-poster/5/1/0/4/7/51047-pan-s-labyrinth-0-1000-0-1500-crop.jpg?v=79f89e7325
@@ -172,7 +172,7 @@ Ponyo,Hayao Miyazaki,"[""Yuria Kozuki"", ""Hiroki Doi"", ""George Tokoro""]",4.0
 Kiki's Delivery Service,Hayao Miyazaki,"[""Minami Takayama"", ""Rei Sakuma"", ""Kappei Yamaguchi""]",4.13,892316,https://a.ltrbxd.com/resized/sm/upload/5e/rk/0e/99/C70E830B-E641-4CD4-87B3-8DFB91383E20-0-1000-0-1500-crop.jpg?v=359a791d0d
 Spider-Man 2,Sam Raimi,"[""Tobey Maguire"", ""Kirsten Dunst"", ""James Franco""]",3.88,2064637,https://a.ltrbxd.com/resized/sm/upload/pq/mi/kb/ck/7JtMVM58MnzxWeyubzLpXBiVnDC-0-1000-0-1500-crop.jpg?v=c5f2675b28
 Dazed and Confused,Richard Linklater,"[""Jason London"", ""Joey Lauren Adams"", ""Matthew McConaughey""]",3.93,505097,https://a.ltrbxd.com/resized/sm/upload/7h/zn/l9/ps/2lHRRgoof25kJsLgocf3go2Ccp1-0-1000-0-1500-crop.jpg?v=f4072fb72c
-The Nightmare Before Christmas,Henry Selick,"[""Danny Elfman"", ""Chris Sarandon"", """"Catherine OHara""""]",3.95,1646049,https://a.ltrbxd.com/resized/film-poster/4/7/1/1/9/47119-the-nightmare-before-christmas-0-1000-0-1500-crop.jpg?v=cc72c8b470
+The Nightmare Before Christmas,Henry Selick,"[""Danny Elfman"", ""Chris Sarandon"", ""Catherine OHara""]",3.95,1646049,https://a.ltrbxd.com/resized/film-poster/4/7/1/1/9/47119-the-nightmare-before-christmas-0-1000-0-1500-crop.jpg?v=cc72c8b470
 But I'm a Cheerleader,Jamie Babbit,"[""Natasha Lyonne"", ""Clea DuVall"", ""Cathy Moriarty""]",3.98,437777,https://a.ltrbxd.com/resized/film-poster/3/8/8/0/0/38800-but-i-m-a-cheerleader-0-1000-0-1500-crop.jpg?v=fb07442029
 Moulin Rouge!,Baz Luhrmann,"[""Nicole Kidman"", ""Ewan McGregor"", ""John Leguizamo""]",3.74,512760,https://a.ltrbxd.com/resized/film-poster/5/1/3/2/8/51328-moulin-rouge--0-1000-0-1500-crop.jpg?v=26abae7095
 Gladiator,Ridley Scott,"[""Russell Crowe"", ""Joaquin Phoenix"", ""Connie Nielsen""]",4.1,1220270,https://a.ltrbxd.com/resized/film-poster/5/1/9/5/2/51952-gladiator-0-1000-0-1500-crop.jpg?v=ebc9155e73
@@ -200,7 +200,7 @@ Possession,Andrzej Żuławski,"[""Isabelle Adjani"", ""Sam Neill"", ""Margit Car
 Saltburn,Emerald Fennell,"[""Barry Keoghan"", ""Jacob Elordi"", ""Rosamund Pike""]",3.44,1908645,https://a.ltrbxd.com/resized/film-poster/8/3/5/7/7/4/835774-saltburn-0-1000-0-1500-crop.jpg?v=b58cbd3b08
 American Beauty,Sam Mendes,"[""Kevin Spacey"", ""Annette Bening"", ""Thora Birch""]",3.96,1224138,https://a.ltrbxd.com/resized/film-poster/2/7/0/3/2703-american-beauty-0-1000-0-1500-crop.jpg?v=30329dd752
 Jennifer's Body,Karyn Kusama,"[""Megan Fox"", ""Amanda Seyfried"", ""Johnny Simmons""]",3.42,988122,https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-1000-0-1500-crop.jpg?v=af7fb6bd86
-Singin' in the Rain,"Stanley Donen, Gene Kelly","[""Gene Kelly"", """"Donald OConnor"""", ""Debbie Reynolds""]",4.32,558352,https://a.ltrbxd.com/resized/sm/upload/xc/8e/3x/nt/nUP6Kna8oiUl2VNbEQ4BJhTcpO8-0-1000-0-1500-crop.jpg?v=2c7de99ac3
+Singin' in the Rain,"Stanley Donen, Gene Kelly","[""Gene Kelly"", ""Donald OConnor"", ""Debbie Reynolds""]",4.32,558352,https://a.ltrbxd.com/resized/sm/upload/xc/8e/3x/nt/nUP6Kna8oiUl2VNbEQ4BJhTcpO8-0-1000-0-1500-crop.jpg?v=2c7de99ac3
 Phantom Thread,Paul Thomas Anderson,"[""Daniel Day-Lewis"", ""Vicky Krieps"", ""Lesley Manville""]",4.14,531395,https://a.ltrbxd.com/resized/film-poster/3/3/5/3/8/4/335384-phantom-thread-0-1000-0-1500-crop.jpg?v=6b47f80ec7
 Manchester by the Sea,Kenneth Lonergan,"[""Casey Affleck"", ""Lucas Hedges"", ""Michelle Williams""]",4.1,709481,https://a.ltrbxd.com/resized/sm/upload/i7/li/tp/62/i0t7F6b4R1wURRESAiw9VJNuVoV-0-1000-0-1500-crop.jpg?v=65942464ea
 1917,Sam Mendes,"[""George MacKay"", ""Dean-Charles Chapman"", ""Mark Strong""]",4.1,1615945,https://a.ltrbxd.com/resized/film-poster/4/6/0/1/5/5/460155-1917-0-1000-0-1500-crop.jpg?v=9eb1d95df5
@@ -208,7 +208,7 @@ Cars,John Lasseter,"[""Owen Wilson"", ""Larry the Cable Guy"", ""Bonnie Hunt""]"
 Vertigo,Alfred Hitchcock,"[""James Stewart"", ""Kim Novak"", ""Barbara Bel Geddes""]",4.24,718198,https://a.ltrbxd.com/resized/sm/upload/q9/3o/ng/om/obhM86qyv8RsE69XSMTtT9FdE0b-0-1000-0-1500-crop.jpg?v=1403a5e003
 Marie Antoinette,Sofia Coppola,"[""Kirsten Dunst"", ""Jason Schwartzman"", ""Steve Coogan""]",3.72,557649,https://a.ltrbxd.com/resized/sm/upload/k7/u1/3i/lu/xOdzoe3tC8X1v7M2Z86sdfjpVrO-0-1000-0-1500-crop.jpg?v=4b6cfecbaf
 "Synecdoche, New York",Charlie Kaufman,"[""Philip Seymour Hoffman"", ""Samantha Morton"", ""Jennifer Jason Leigh""]",4.18,279578,https://a.ltrbxd.com/resized/sm/upload/z9/j9/kx/ve/l3r5MgeN0UUySPbf6aWeUyKGdb2-0-1000-0-1500-crop.jpg?v=0185077fb6
-The Holdovers,Alexander Payne,"[""Paul Giamatti"", ""Dominic Sessa"", """"DaVine Joy Randolph""""]",4.22,790608,https://a.ltrbxd.com/resized/film-poster/7/5/5/5/6/4/755564-the-holdovers-0-1000-0-1500-crop.jpg?v=99bbdd8955
+The Holdovers,Alexander Payne,"[""Paul Giamatti"", ""Dominic Sessa"", ""DaVine Joy Randolph""]",4.22,790608,https://a.ltrbxd.com/resized/film-poster/7/5/5/5/6/4/755564-the-holdovers-0-1000-0-1500-crop.jpg?v=99bbdd8955
 Come and See,Elem Klimov,"[""Aleksei Kravchenko"", ""Olga Mironova"", ""Liubomiras Laucevicius""]",4.64,304510,https://a.ltrbxd.com/resized/film-poster/3/6/1/9/2/36192-come-and-see-0-1000-0-1500-crop.jpg?v=741b0269bb
 mid90s,Jonah Hill,"[""Sunny Suljic"", ""Katherine Waterston"", ""Lucas Hedges""]",3.76,623503,https://a.ltrbxd.com/resized/film-poster/3/7/0/4/5/1/370451-mid90s-0-1000-0-1500-crop.jpg?v=75ec66cf80
 Bones and All,Luca Guadagnino,"[""Taylor Russell"", ""Timothée Chalamet"", ""Mark Rylance""]",3.65,600805,https://a.ltrbxd.com/resized/sm/upload/xi/cb/mo/xg/bones2-0-1000-0-1500-crop.jpg?v=bdb6694df9
