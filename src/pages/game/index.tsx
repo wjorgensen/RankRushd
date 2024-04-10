@@ -17,6 +17,7 @@ interface MovieData {
   Film_URL: string;
 }
 
+
 export default function Home() {
   const [movieData, setMovieData] = useState<MovieData[]>([]);
   const router = useRouter();
@@ -32,6 +33,9 @@ export default function Home() {
   const [thirdMovie, setThirdMovie] = useState<MovieData | null>(null);
   const [isSliding, setIsSliding] = useState(false);
   const [endgame, setEndGame] = useState(false);
+  const [seenMovies, setSeenMovies] = useState<SeenMovies>({});
+  type SeenMovies = Record<string, boolean>;
+
 
 
   useEffect(() => {
@@ -44,9 +48,20 @@ export default function Home() {
   }, [movieData]);
 
   const getRandomMovies = (movies: MovieData[], count: number): MovieData[] => {
-    const validMovies = movies.filter(movie => movie.Film_title !== "Film_title");
+    const validMovies = movies.filter(movie => movie.Film_title !== "Film_title" && !seenMovies[movie.Film_title]);
+
+    // Shuffle and slice to get the random movies
     const shuffled = [...validMovies].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, count);
+    const selectedMovies = shuffled.slice(0, count);
+
+    // Prepare the updated seenMovies state
+    const newSeenMovies: SeenMovies = {...seenMovies};
+    selectedMovies.forEach(movie => {
+      newSeenMovies[movie.Film_title] = true;
+    });
+    setSeenMovies(newSeenMovies);
+
+    return selectedMovies;
   };
 
   const handleHintUsed = ():boolean => {
@@ -120,6 +135,7 @@ export default function Home() {
 
       localStorage.setItem('score', score.toString());
 
+      setSeenMovies({});
       setOverlayTrigger('endGame');
       setShowOverlay(true);
     }
